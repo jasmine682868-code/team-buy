@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026團購價目表</title>
+    <style>
+        :root {
+            --primary: #d32f2f;
+            --primary-light: #ffebee;
+            --bg-color: #f5f5f5;
+        }
+        body {
+            font-family: "Helvetica Neue", Helvetica, Arial, "PingFang TC", "Heiti TC", "Microsoft JhengHei", sans-serif;
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .header h1 {
+            color: var(--primary);
+            margin-bottom: 5px;
+            font-size: 32px;
+        }
+        .header p {
+            color: #666;
+            margin-top: 0;
+        }
+        .section-title {
+            border-bottom: 2px solid var(--primary);
+            padding-bottom: 10px;
+            color: var(--primary);
+            margin-top: 40px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .card {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            border: 1px solid #eee;
+        }
+        .card-header {
+            padding: 15px 20px;
+            background-color: var(--primary-light);
+            border-bottom: 1px solid #ffcdd2;
+        }
+        .card-title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #b71c1c;
+            margin: 0 0 10px 0;
+            line-height: 1.4;
+        }
+        .card-tag {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 13px;
+            margin-bottom: 10px;
+        }
+        .card-meta {
+            font-size: 13px;
+            color: #555;
+        }
+        .card-body {
+            padding: 20px;
+            flex-grow: 1;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 5px;
+        }
+        th, td {
+            border-bottom: 1px solid #eee;
+            padding: 10px 5px;
+            text-align: left;
+            font-size: 14px;
+        }
+        th {
+            color: #888;
+            font-weight: normal;
+        }
+        .price-highlight {
+            color: var(--primary);
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        .note-text {
+            color: #e65100;
+            font-size: 12px;
+            display: block;
+            margin-top: 3px;
+        }
+        .combo-items {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 15px 0;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+        .combo-items li::before {
+            content: "✦ ";
+            color: var(--primary);
+        }
+        .combo-price-box {
+            background-color: #fff8e1;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: auto;
+        }
+        .combo-price {
+            font-size: 24px;
+            color: var(--primary);
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1 id="page-title"></h1>
+    <p id="page-updated"></p>
+</div>
+
+<h2 class="section-title">✨ 單品優惠</h2>
+<div class="grid" id="products-container"></div>
+
+<h2 class="section-title">🎁 超值組合優惠</h2>
+<div class="grid" id="combos-container"></div>
+
+<script>
+// 直接將 JSON 資料內嵌在網頁中
+const data = {
+  "cfg": {
+    "title": "2026團購價目表",
+    "updated": "2026/05/07 更新",
+    "banner": "",
+    "styles": {
+      "--fs-pname": "36px",
+      "--fs-spec": "14px",
+      "--fs-th": "12px"
+    }
+  },
+  "products": [
+    {
+      "unitLabel": "包", "bgColor": "", "img": "https://lh3.googleusercontent.com/d/1Ch-2ZG44MduklaVP2r5uAW9xREeSiwlV", "remark": "",
+      "name": "鳳梨寡糖消化酵素飲", "spec": "30包/盒", "unit": 30, "official": 3310, "tag": "消化冠軍",
+      "tiers": [
+        {"qty": 1, "price": 2700, "note": "", "giftCount": 0, "giftValue": 0},
+        {"qty": 3, "price": 7640, "note": "", "giftCount": 0, "giftValue": 0},
+        {"qty": 5, "price": 11900, "note": "", "giftCount": 0, "giftValue": 0}
+      ]
+    },
+    {
+      "unitLabel": "包", "bgColor": "", "img": "https://lh3.googleusercontent.com/d/10Q08MKws-k8dVgp4n90Zr_EBMIgricNq", "remark": "",
+      "name": "極光煥白膠原飲", "spec": "30包/盒", "unit": 30, "official": 3880, "tag": "喝的PDRN(2026新上市）",
+      "tiers": [
+        {"qty": 1, "price": 2860, "note": "", "giftCount": 0, "giftValue": 0},
+        {"qty": 3, "price": 8155, "note": "", "giftCount": 0, "giftValue": 0},
+        {"qty": 5, "price": 12530, "note": "", "giftCount": 0, "giftValue": 0}
+      ]
+    },
+    {
+      "unitLabel": "包", "bgColor": "", "img": "https://lh3.googleusercontent.com/d/1mGcxrHfSdl4Nc1md4gWIY6fMsw-wyXpo", "remark": "",
+      "name": "X糖益生菌", "spec": "30包/盒", "unit": 30, "official": 1870, "tag": "甜食剋星",
+      "tiers": [
+        {"qty": 1, "price": 1580, "note": "送7入*1盒", "giftCount": 7, "giftValue": 620},
+        {"qty": 3, "price": 4380, "note": "送7入*3盒", "giftCount": 21, "giftValue": 1860},
+        {"qty": 5, "price": 6680, "note": "送30入*1盒", "giftCount": 30, "giftValue": 1870}
+      ]
+    },
+    {
+      "unitLabel": "包", "bgColor": "", "img": "https://lh3.googleusercontent.com/d/1EpNBPHh8YQb_pgdYJV3l36gwDBTEXmBk", "remark": "",
+      "name": "輕朔益生菌", "spec": "30包/盒", "unit": 30, "official": 2310, "tag": "油脂剋星、油脂代謝",
+      "tiers": [
+        {"qty": 1, "price": 1880, "note": "", "giftCount": 0, "giftValue": 0},
+        {"qty": 3, "price": 5280, "note": "", "giftCount": 0, "giftValue": 0},
+        {"qty": 5, "price": 8180, "note": "", "giftCount": 0, "giftValue": 0}
+      ]
+    },
+    {
+      "unitLabel": "顆", "bgColor": "", "img": "https://lh3.googleusercontent.com/d/1kUO3JH1BNpOiuVe6hc_GoRTLLkWbA29u", "remark": "",
+      "name": "1000+ 綜合超臨界魚油", "spec": "60顆/盒", "unit": 60, "official": 1420, "tag": "全能代謝",
+      "tiers": [
+        {"qty": 1, "price": 999, "note": "", "giftCount": 0, "giftValue": 0},
+        {"qty": 3, "price": 2888, "note": "", "giftCount": 0, "giftValue": 0},
+        {"qty": 5, "price": 4400, "note": "", "giftCount": 0, "giftValue": 0}
+      ]
+    },
+    {
+      "unitLabel": "顆", "bgColor": "", "img": "https://lh3.googleusercontent.com/d/1cmiWVP_BKV8hNw7SbZeyhs2FGxv7lLlS", "remark": "",
+      "name": "1000+ EPA超臨界魚油", "spec": "60顆/盒", "unit": 60, "official": 1760, "tag": "快樂魚油",
+      "tiers": [
+        {"qty": 1, "price": 1299, "note": "", "giftCount": 0, "giftValue": 0},
+        {"qty": 3, "price": 3699, "note": "", "giftCount": 0, "giftValue": 0},
+        {"qty": 5, "price": 5699, "note": "", "giftCount": 0, "giftValue": 0}
+      ]
+    },
+    {
+      "unitLabel": "顆", "bgColor": "", "img": "https://lh3.googleusercontent.com/d/1i-qp8HvE7bae0wp_FUryBFPYRN6GR-vo", "remark": "",
+      "name": "躺好眠數羊膠囊", "spec": "60顆/瓶", "unit": 60, "official": 2180, "tag": "幫助入睡、提升夜間代謝",
+      "tiers": [
+        {"qty": 1, "price": 1860, "note": "", "giftCount": 0, "giftValue": 0},
+        {"qty": 3, "price": 5200, "note": "", "giftCount": 0, "giftValue": 0},
+        {"qty": 5, "price": 7800, "note": "", "giftCount": 0, "giftValue": 0}
+      ]
+    },
+    {
+      "unitLabel": "顆", "bgColor": "", "img": "https://lh3.googleusercontent.com/d/170MwKetuOt_4lf3akUYWu6ua5e0Jladu", "remark": "",
+      "name": "好硒利代謝膠囊", "spec": "60顆/瓶", "unit": 60, "official": 3580, "tag": "增加代謝、保護甲狀腺",
+      "tiers": [
+        {"qty": 1, "price": 3040, "note": "", "giftCount": 0, "giftValue": 0},
+        {"qty": 3, "price": 8800, "note": "", "giftCount": 0, "giftValue": 0},
+        {"qty": 5, "price": 14100, "note": "", "giftCount": 0, "giftValue": 0}
+      ]
+    },
+    {
+      "unitLabel": "顆", "bgColor": "", "img": "https://lh3.googleusercontent.com/d/1u1P4cg5QNQRJO_Q8UX1IvH5wLL-TVSec", "remark": "",
+      "name": "狼順便秋葵膠囊", "spec": "60顆/瓶", "unit": 60, "official": 1480, "tag": "包覆油脂、幫助排便",
+      "tiers": [
+        {"qty": 1, "price": 1250, "note": "", "giftCount": 0, "giftValue": 0},
+        {"qty": 3, "price": 3550, "note": "", "giftCount": 0, "giftValue": 0},
+        {"qty": 5, "price": 5550, "note": "", "giftCount": 0, "giftValue": 0}
+      ]
+    },
+    {
+      "unitLabel": "顆", "bgColor": "", "img": "https://lh3.googleusercontent.com/d/1B0xmOvciLiRXwkhBII2H1-zUTtJTYSTO", "remark": "",
+      "name": "緩醣盾褐藻膠囊", "spec": "60顆/瓶", "unit": 60, "official": 1880, "tag": "穩定血糖",
+      "tiers": [
+        {"qty": 1, "price": 1590, "note": "", "giftCount": 0, "giftValue": 0},
+        {"qty": 3, "price": 4510, "note": "", "giftCount": 0, "giftValue": 0},
+        {"qty": 5, "price": 7050, "note": "", "giftCount": 0, "giftValue": 0}
+      ]
+    },
+    {
+      "unitLabel": "瓶", "bgColor": "", "img": "", "remark": "",
+      "name": "SPIRIT'S SECRET 泌妍煥髮精華", "spec": "5瓶/盒", "unit": 5, "official": 7700, "tag": "",
+      "tiers": [
+        {"qty": 1, "price": 6888, "note": "", "giftCount": 0, "giftValue": 0},
+        {"qty": 3, "price": 19600, "note": "", "giftCount": 0, "giftValue": 0}
+      ]
+    },
+    {
+      "unitLabel": "顆", "bgColor": "", "img": "", "remark": "",
+      "name": "養泌法豐盈膠囊", "spec": "60顆/盒", "unit": 60, "official": 1580, "tag": "生髮(2026上市)",
+      "tiers": [
+        {"qty": 1, "price": 1260, "note": "", "giftCount": 0, "giftValue": 0},
+        {"qty": 3, "price": 3550, "note": "", "giftCount": 0, "giftValue": 0},
+        {"qty": 5, "price": 5550, "note": "", "giftCount": 0, "giftValue": 0}
+      ]
+    },
+    {
+      "unitLabel": "包", "bgColor": "#ff4500", "img": "https://lh3.googleusercontent.com/d/1dxjF5dmVG1qvhLpXasZbo8S2xkgKExxh", "remark": "",
+      "name": "花青素透明質酸鈉果凍", "spec": "20包/盒", "unit": 20, "official": 1760, "tag": "護眼代謝 效期：2026/12/10",
+      "tiers": [
+        {"qty": 1, "price": 1500, "note": "再送花青素5入*1", "giftCount": 5, "giftValue": 480},
+        {"qty": 3, "price": 4220, "note": "再送花青素5入*3", "giftCount": 15, "giftValue": 1440},
+        {"qty": 5, "price": 6600, "note": "再送花青素20入*1", "giftCount": 20, "giftValue": 1760}
+      ]
+    },
+    {
+      "unitLabel": "顆", "bgColor": "#ff4500", "img": "https://lh3.googleusercontent.com/d/13Di9H9BRZ_PVy7GPgym7WE3gFi0UYErj", "remark": "",
+      "name": "頂級亮妍B群2.0", "spec": "60顆/瓶", "unit": 60, "official": 1920, "tag": "亮妍提神(效期：2027/04/14)",
+      "tiers": [
+        {"qty": 1, "price": 1680, "note": "", "giftCount": 0, "giftValue": 0},
+        {"qty": 3, "price": 4680, "note": "", "giftCount": 0, "giftValue": 0},
+        {"qty": 5, "price": 7380, "note": "", "giftCount": 0, "giftValue": 0}
+      ]
+    },
+    {
+      "unitLabel": "顆", "bgColor": "#ff4500", "img": "https://lh3.googleusercontent.com/d/1wtKmj-7NPmVsl3yX4B2z_ruAuhQYgjBk", "remark": "",
+      "name": "黃金舒復膠囊", "spec": "60顆/瓶", "unit": 60, "official": 2180, "tag": "舒緩酸痛、抗發炎(效期：2027/02/24)",
+      "tiers": [
+        {"qty": 1, "price": 1760, "note": "", "giftCount": 0, "giftValue": 0},
+        {"qty": 3, "price": 4990, "note": "", "giftCount": 0, "giftValue": 0},
+        {"qty": 5, "price": 7800, "note": "", "giftCount": 0, "giftValue": 0}
+      ]
+    }
+  ],
+  "combos": [
+    {
+      "remark": "", "name": "鳳梨消化酵素(30入)+X糖益生菌3.0(30入)",
+      "items": [
+        {"productName": "鳳梨寡糖消化酵素飲", "productSpec": "30包/盒", "qty": 1},
+        {"productName": "X糖益生菌", "productSpec": "30包/盒", "qty": 1}
+      ],
+      "price": 4145, "comboGift": "X糖益生菌7入", "comboGiftValue": 620
+    },
+    {
+      "remark": "", "name": "輕朔益生菌(30入)+X糖益生菌3.0(30入)",
+      "items": [
+        {"productName": "X糖益生菌", "productSpec": "30包/盒", "qty": 1},
+        {"productName": "輕朔益生菌", "productSpec": "30包/盒", "qty": 1}
+      ],
+      "price": 3428, "comboGift": "", "comboGiftValue": 0
+    },
+    {
+      "remark": "", "name": "緩醣盾褐藻膠囊+輕朔益生菌(30入)",
+      "items": [
+        {"productName": "緩醣盾褐藻膠囊", "productSpec": "60顆/瓶", "qty": 1},
+        {"productName": "輕朔益生菌", "productSpec": "30包/盒", "qty": 1}
+      ],
+      "price": 3399, "comboGift": "", "comboGiftValue": 0
+    },
+    {
+      "name": "新組合", "remark": "", "comboGift": "", "comboGiftValue": 0,
+      "items": [
+        {"productName": "輕朔益生菌", "productSpec": "30包/盒", "qty": 1},
+        {"productName": "緩醣盾褐藻膠囊", "productSpec": "60顆/瓶", "qty": 1}
+      ],
+      "price": 3399
+    },
+    {
+      "name": "新組合", "remark": "", "comboGift": "", "comboGiftValue": 0,
+      "items": [
+        {"productName": "X糖益生菌", "productSpec": "30包/盒", "qty": 1},
+        {"productName": "緩醣盾褐藻膠囊", "productSpec": "60顆/瓶", "qty": 1}
+      ],
+      "price": 2699
+    },
+    {
+      "name": "新組合", "remark": "", "comboGift": "", "comboGiftValue": 0,
+      "items": [
+        {"productName": "好硒利代謝膠囊", "productSpec": "60顆/瓶", "qty": 1},
+        {"productName": "緩醣盾褐藻膠囊", "productSpec": "60顆/瓶", "qty": 1}
+      ],
+      "price": 4188
+    },
+    {
+      "name": "新組合", "remark": "", "comboGift": "", "comboGiftValue": 0,
+      "items": [
+        {"productName": "狼順便秋葵膠囊", "productSpec": "60顆/瓶", "qty": 1},
+        {"productName": "緩醣盾褐藻膠囊", "productSpec": "60顆/瓶", "qty": 1}
+      ],
+      "price": 2788
+    },
+    {
+      "name": "新組合", "remark": "", "comboGift": "", "comboGiftValue": 0,
+      "items": [
+        {"productName": "躺好眠數羊膠囊", "productSpec": "60顆/瓶", "qty": 1},
+        {"productName": "緩醣盾褐藻膠囊", "productSpec": "60顆/瓶", "qty": 1}
+      ],
+      "price": 3299
+    },
+    {
+      "name": "新組合", "remark": "", "comboGift": "", "comboGiftValue": 0,
+      "items": [
+        {"productName": "1000+ EPA超臨界魚油", "productSpec": "60顆/盒", "qty": 1},
+        {"productName": "黃金舒復膠囊", "productSpec": "60顆/瓶", "qty": 1}
+      ],
+      "price": 2666
+    },
+    {
+      "name": "新組合", "remark": "", "comboGift": "", "comboGiftValue": 0,
+      "items": [
+        {"productName": "鳳梨寡糖消化酵素飲", "productSpec": "30包/盒", "qty": 1},
+        {"productName": "1000+ 綜合超臨界魚油", "productSpec": "60顆/盒", "qty": 1}
+      ],
+      "price": 3300
+    },
+    {
+      "name": "新組合", "remark": "", "comboGift": "", "comboGiftValue": 0,
+      "items": [
+        {"productName": "1000+ 綜合超臨界魚油", "productSpec": "60顆/盒", "qty": 1},
+        {"productName": "1000+ EPA超臨界魚油", "productSpec": "60顆/盒", "qty": 1}
+      ],
+      "price": 2238
+    }
+  ]
+};
+
+// 填入標題與更新時間
+document.getElementById('page-title').textContent = data.cfg.title;
+document.getElementById('page-updated').textContent = data.cfg.updated;
+
+// 渲染單品列表
+const productsContainer = document.getElementById('products-container');
+data.products.forEach(p => {
+    let tiersHtml = '';
+    p.tiers.forEach(t => {
+        let note = t.note ? `<span class="note-text">${t.note}</span>` : '';
+        tiersHtml += `
+            <tr>
+                <td>${t.qty} ${p.unitLabel}</td>
+                <td class="price-highlight">$${t.price}</td>
+                <td>${t.giftCount > 0 ? '🎁 ' : ''}${note}</td>
+            </tr>
+        `;
+    });
+
+    let tagHtml = p.tag ? `<div class="card-tag">${p.tag}</div>` : '';
+
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.innerHTML = `
+        <div class="card-header">
+            <h3 class="card-title">${p.name}</h3>
+            ${tagHtml}
+            <div class="card-meta">規格: ${p.spec} | 官方原價: $${p.official}</div>
+        </div>
+        <div class="card-body">
+            <table>
+                <thead>
+                    <tr>
+                        <th width="20%">數量</th>
+                        <th width="35%">團購價</th>
+                        <th>備註</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    ${tiersHtml}
+                </tbody>
+            </table>
+        </div>
+    `;
+    productsContainer.appendChild(card);
+});
+
+// 渲染組合列表
+const combosContainer = document.getElementById('combos-container');
+data.combos.forEach(c => {
+    let itemsHtml = '';
+    c.items.forEach(i => {
+        itemsHtml += `<li>${i.productName} <span style="color:#666; font-size:0.9em">(${i.productSpec}) x ${i.qty}</span></li>`;
+    });
+    
+    let giftHtml = c.comboGift ? `<div style="color:#d32f2f; margin-top:10px; font-size:14px; border-top:1px dashed #ccc; padding-top:10px;"><strong>🎁 贈品:</strong> ${c.comboGift} (價值 $${c.comboGiftValue})</div>` : '';
+
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.innerHTML = `
+        <div class="card-header">
+            <h3 class="card-title">${c.name}</h3>
+        </div>
+        <div class="card-body" style="display:flex; flex-direction:column;">
+            <ul class="combo-items">
+                ${itemsHtml}
+            </ul>
+            <div class="combo-price-box">
+                <div>組合價</div>
+                <div class="combo-price">$${c.price}</div>
+                ${giftHtml}
+            </div>
+        </div>
+    `;
+    combosContainer.appendChild(card);
+});
+</script>
+</body>
+</html>

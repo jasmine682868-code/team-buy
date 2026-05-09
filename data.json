@@ -1,7 +1,7 @@
 {
   "cfg": {
     "title": "2026團購價目表",
-    "updated": "2026/05/09 16:00 更新",
+    "updated": "2026/05/09 16:18 更新",
     "banner": "https://lh3.googleusercontent.com/d/16XrAyvAoKa95vfY4CcaNtMIS0TeiLE3W",
     "styles": {
       "--fs-pname": "36px",
@@ -775,7 +775,7 @@
   "frozen": [
     {
       "isOffShelf": false,
-      "tag": "團購獨家！手工麵捲系列",
+      "tag": "團購獨家！手工麵捲系列,雞",
       "qty": 3,
       "name": "手工青醬雞肉麵捲(395大卡)",
       "basePrice": 140,
@@ -786,7 +786,7 @@
     },
     {
       "isOffShelf": false,
-      "tag": "團購獨家！手工麵捲系列",
+      "tag": "團購獨家！手工麵捲系列,雞",
       "qty": 3,
       "name": "手工南瓜雞肉麵捲(366大卡)",
       "basePrice": 140,
@@ -797,7 +797,7 @@
     },
     {
       "isOffShelf": false,
-      "tag": "團購獨家！手工麵捲系列",
+      "tag": "團購獨家！手工麵捲系列,雞",
       "qty": 3,
       "name": "手工蕃茄雞肉麵捲(340大卡)",
       "basePrice": 150,
@@ -808,7 +808,7 @@
     },
     {
       "isOffShelf": false,
-      "tag": "團購獨家！手工麵捲系列",
+      "tag": "團購獨家！手工麵捲系列,雞",
       "qty": 3,
       "name": "手工松露雞肉麵捲(342大卡)",
       "basePrice": 155,
@@ -819,7 +819,7 @@
     },
     {
       "isOffShelf": false,
-      "tag": "團購獨家！手工麵捲系列",
+      "tag": "團購獨家！手工麵捲系列,雞",
       "qty": 3,
       "name": "手工透抽雞肉麵捲(278大卡)",
       "basePrice": 155,
@@ -830,7 +830,7 @@
     },
     {
       "isOffShelf": false,
-      "tag": "團購獨家！手工麵捲系列",
+      "tag": "團購獨家！手工麵捲系列,雞",
       "qty": 3,
       "name": "手工瑪格麗雞肉麵捲(277大卡)",
       "basePrice": 155,
@@ -841,9 +841,9 @@
     },
     {
       "isOffShelf": false,
-      "tag": "團購獨家！手工麵捲系列, 歐娜聯名",
+      "tag": "團購獨家！手工麵捲系列, 歐娜聯名,辣,酒,雞",
       "qty": 3,
-      "name": "[歐娜聯名] 手工粉紅醬雞肉麵捲(385大卡)",
+      "name": "手工粉紅醬雞肉麵捲(385大卡)",
       "basePrice": 165,
       "spicy": 1,
       "alcohol": true,
@@ -852,9 +852,9 @@
     },
     {
       "isOffShelf": false,
-      "tag": "團購獨家！手工麵捲系列, 歐娜聯名",
+      "tag": "團購獨家！手工麵捲系列, 歐娜聯名,辣,雞",
       "qty": 3,
-      "name": "[歐娜聯名] 手工奶油香蒜雞肉麵捲(370大卡)",
+      "name": "手工奶油香蒜雞肉麵捲(370大卡)",
       "basePrice": 155,
       "spicy": 1,
       "alcohol": false,
@@ -863,9 +863,9 @@
     },
     {
       "isOffShelf": false,
-      "tag": "團購獨家！手工麵捲系列, 歐娜聯名",
+      "tag": "團購獨家！手工麵捲系列, 歐娜聯名,辣,雞",
       "qty": 3,
-      "name": "[歐娜聯名] 手工煙花女墨魚雞肉麵捲(286大卡)",
+      "name": "手工煙花女墨魚雞肉麵捲(286大卡)",
       "basePrice": 165,
       "spicy": 1,
       "alcohol": false,
@@ -874,9 +874,9 @@
     },
     {
       "isOffShelf": false,
-      "tag": "團購獨家！手工麵捲系列, 歐娜聯名",
+      "tag": "團購獨家！手工麵捲系列, 歐娜聯名,辣,酒,雞",
       "qty": 3,
-      "name": "[歐娜聯名] 手工白酒蛤蠣雞肉麵捲(348大卡)",
+      "name": "手工白酒蛤蠣雞肉麵捲(348大卡)",
       "basePrice": 190,
       "spicy": 1,
       "alcohol": true,
@@ -885,9 +885,9 @@
     },
     {
       "isOffShelf": false,
-      "tag": "料多多！米飯系列",
+      "tag": "料多多！米飯系列,蔬食系列",
       "qty": 3,
-      "name": "[蔬食系列] 野菇栗子紫米炊飯(480大卡)",
+      "name": "野菇栗子紫米炊飯(480大卡)",
       "basePrice": 150,
       "spicy": 0,
       "alcohol": false,
@@ -896,9 +896,9 @@
     },
     {
       "isOffShelf": false,
-      "tag": "料多多！米飯系列,蔬食系列",
+      "tag": "料多多！米飯系列,蔬食系列,酒",
       "qty": 3,
-      "name": "[蔬食系列] 西班牙風味蔬食炊飯(384大卡)",
+      "name": "西班牙風味蔬食炊飯(384大卡)",
       "basePrice": 155,
       "spicy": 0,
       "alcohol": true,
@@ -907,9 +907,9 @@
     },
     {
       "isOffShelf": false,
-      "tag": "料多多！米飯系列",
+      "tag": "料多多！米飯系列,新品上市,酒,雞",
       "qty": 3,
-      "name": "[新品上市] 日式牛蒡雞肉炊飯(473卡)",
+      "name": "日式牛蒡雞肉炊飯(473卡)",
       "basePrice": 165,
       "spicy": 0,
       "alcohol": true,
@@ -918,9 +918,9 @@
     },
     {
       "isOffShelf": false,
-      "tag": "料多多！米飯系列",
+      "tag": "料多多！米飯系列,新品上市,豬",
       "qty": 3,
-      "name": "[新品上市] 日式芋頭香菇炊飯(357卡)",
+      "name": "日式芋頭香菇炊飯(357卡)",
       "basePrice": 145,
       "spicy": 0,
       "alcohol": false,
@@ -929,9 +929,9 @@
     },
     {
       "isOffShelf": false,
-      "tag": "料多多！米飯系列",
+      "tag": "料多多！米飯系列,新品上市,酒,豬",
       "qty": 3,
-      "name": "[新品上市] 日式蓮藕鹽麴豚肉炊飯(400卡)",
+      "name": "日式蓮藕鹽麴豚肉炊飯(400卡)",
       "basePrice": 170,
       "spicy": 0,
       "alcohol": true,
@@ -940,9 +940,9 @@
     },
     {
       "isOffShelf": false,
-      "tag": "料多多！米飯系列",
+      "tag": "料多多！米飯系列,新品上市,酒,雞",
       "qty": 3,
-      "name": "[新品上市] 奶油味噌雞肉燉飯(445卡)",
+      "name": "奶油味噌雞肉燉飯(445卡)",
       "basePrice": 170,
       "spicy": 0,
       "alcohol": true,
@@ -951,9 +951,9 @@
     },
     {
       "isOffShelf": false,
-      "tag": "料多多！米飯系列",
+      "tag": "料多多！米飯系列,新品上市,辣,酒,雞",
       "qty": 3,
-      "name": "[新品上市] 中華魚香雞肉拌飯(386卡)",
+      "name": "中華魚香雞肉拌飯(386卡)",
       "basePrice": 145,
       "spicy": 1,
       "alcohol": true,
@@ -962,7 +962,7 @@
     },
     {
       "isOffShelf": false,
-      "tag": "料多多！米飯系列",
+      "tag": "料多多！米飯系列,辣,酒,雞",
       "qty": 3,
       "name": "青醬燉飯佐香料烤雞(481大卡)",
       "basePrice": 145,
@@ -973,7 +973,7 @@
     },
     {
       "isOffShelf": false,
-      "tag": "料多多！米飯系列",
+      "tag": "料多多！米飯系列,辣,酒,牛",
       "qty": 3,
       "name": "紅燒牛肉炊飯(355大卡)",
       "basePrice": 140,
@@ -984,7 +984,7 @@
     },
     {
       "isOffShelf": false,
-      "tag": "料多多！米飯系列",
+      "tag": "料多多！米飯系列,辣,酒,雞",
       "qty": 3,
       "name": "義式雞腿蕃茄燉飯(352大卡)",
       "basePrice": 150,
@@ -995,7 +995,7 @@
     },
     {
       "isOffShelf": false,
-      "tag": "料多多！米飯系列",
+      "tag": "料多多！米飯系列,辣,豬",
       "qty": 3,
       "name": "泰式打拋豬肉飯(419大卡)",
       "basePrice": 110,
@@ -1006,7 +1006,7 @@
     },
     {
       "isOffShelf": false,
-      "tag": "料多多！米飯系列",
+      "tag": "料多多！米飯系列,辣,雞",
       "qty": 3,
       "name": "松露雞腿燉飯(431大卡)",
       "basePrice": 165,
@@ -1017,7 +1017,7 @@
     },
     {
       "isOffShelf": false,
-      "tag": "料多多！米飯系列",
+      "tag": "料多多！米飯系列,辣,酒,雞",
       "qty": 3,
       "name": "麻油雞拌飯(441大卡)",
       "basePrice": 155,
@@ -1028,7 +1028,7 @@
     },
     {
       "isOffShelf": false,
-      "tag": "料多多！米飯系列",
+      "tag": "料多多！米飯系列,魚",
       "qty": 3,
       "name": "日式鮭魚鮮味炊飯(345大卡)",
       "basePrice": 195,
@@ -1039,7 +1039,7 @@
     },
     {
       "isOffShelf": false,
-      "tag": "料多多！米飯系列",
+      "tag": "料多多！米飯系列,辣,酒,雞",
       "qty": 3,
       "name": "奶油野菇雞腿燉飯(386大卡)",
       "basePrice": 130,
@@ -1050,7 +1050,7 @@
     },
     {
       "isOffShelf": false,
-      "tag": "料多多！米飯系列",
+      "tag": "料多多！米飯系列,魚",
       "qty": 3,
       "name": "芥籽櫛瓜烤魚炊飯(375大卡)",
       "basePrice": 145,
@@ -1061,7 +1061,7 @@
     },
     {
       "isOffShelf": false,
-      "tag": "料多多！米飯系列",
+      "tag": "料多多！米飯系列,海鮮",
       "qty": 3,
       "name": "上海蝦仁菜飯(421大卡)",
       "basePrice": 155,
@@ -1072,7 +1072,7 @@
     },
     {
       "isOffShelf": false,
-      "tag": "料多多！米飯系列",
+      "tag": "料多多！米飯系列,酒,魚",
       "qty": 3,
       "name": "菠菜鮭魚炊飯(430大卡)",
       "basePrice": 185,
@@ -1083,7 +1083,7 @@
     },
     {
       "isOffShelf": false,
-      "tag": "料多多！米飯系列",
+      "tag": "料多多！米飯系列,酒,雞",
       "qty": 3,
       "name": "奶油菌菇雞肉燉飯(422大卡)",
       "basePrice": 165,
@@ -1094,7 +1094,7 @@
     },
     {
       "isOffShelf": false,
-      "tag": "料多多！米飯系列",
+      "tag": "料多多！米飯系列,雞",
       "qty": 3,
       "name": "奶油南瓜雞肉燉飯(446大卡)",
       "basePrice": 155,
@@ -1105,7 +1105,7 @@
     },
     {
       "isOffShelf": false,
-      "tag": "料多多！米飯系列",
+      "tag": "料多多！米飯系列,酒,豬",
       "qty": 3,
       "name": "菌菇肉絲麻油飯(546大卡)",
       "basePrice": 160,
@@ -1116,9 +1116,9 @@
     },
     {
       "isOffShelf": false,
-      "tag": "小纖女！花椰菜米系列",
+      "tag": "小纖女！花椰菜米系列,蔬食系列",
       "qty": 3,
-      "name": "[蔬食系列] 青醬堅果野菇花椰米(305大卡)",
+      "name": "青醬堅果野菇花椰米(305大卡)",
       "basePrice": 170,
       "spicy": 0,
       "alcohol": false,
@@ -1127,9 +1127,9 @@
     },
     {
       "isOffShelf": false,
-      "tag": "小纖女！花椰菜米系列",
+      "tag": "小纖女！花椰菜米系列,蔬食系列,辣",
       "qty": 3,
-      "name": "[蔬食系列] 西西里蕃茄花椰菜米(214大卡)",
+      "name": "西西里蕃茄花椰菜米(214大卡)",
       "basePrice": 145,
       "spicy": 1,
       "alcohol": false,
@@ -1138,9 +1138,9 @@
     },
     {
       "isOffShelf": false,
-      "tag": "小纖女！花椰菜米系列",
+      "tag": "小纖女！花椰菜米系列,蔬食系列",
       "qty": 3,
-      "name": "[蔬食系列] 咖哩蔬食花椰菜米(179大卡)",
+      "name": "咖哩蔬食花椰菜米(179大卡)",
       "basePrice": 150,
       "spicy": 0,
       "alcohol": false,
@@ -1149,9 +1149,9 @@
     },
     {
       "isOffShelf": false,
-      "tag": "",
+      "tag": "小纖女！花椰菜米系列,辣,酒,雞",
       "qty": 3,
-      "name": "乾煸櫻花蝦雞肉椰菜米(295大卡)",
+      "name": "乾煸櫻花蝦雞肉花椰菜米(295大卡)",
       "basePrice": 220,
       "spicy": 1,
       "alcohol": true,
@@ -1160,9 +1160,9 @@
     },
     {
       "isOffShelf": false,
-      "tag": "小纖女！花椰菜米系列",
+      "tag": "小纖女！花椰菜米系列,酒,雞",
       "qty": 3,
-      "name": "麻油牛肝菌花椰米(347大卡)",
+      "name": "麻油牛肝菌花椰菜米(347大卡)",
       "basePrice": 215,
       "spicy": 0,
       "alcohol": true,
@@ -1171,7 +1171,7 @@
     },
     {
       "isOffShelf": false,
-      "tag": "小纖女！花椰菜米系列",
+      "tag": "小纖女！花椰菜米系列,辣,豬",
       "qty": 3,
       "name": "泰式打拋豬肉花椰菜米(297大卡)",
       "basePrice": 150,
@@ -1182,7 +1182,7 @@
     },
     {
       "isOffShelf": false,
-      "tag": "小纖女！花椰菜米系列",
+      "tag": "小纖女！花椰菜米系列,辣,酒,豬",
       "qty": 3,
       "name": "薑汁燒肉花椰菜米(321大卡)",
       "basePrice": 195,
@@ -1193,7 +1193,7 @@
     },
     {
       "isOffShelf": false,
-      "tag": "小纖女！花椰菜米系列",
+      "tag": "小纖女！花椰菜米系列,辣,酒,豬",
       "qty": 3,
       "name": "奶油豚肉花椰菜米(350大卡)",
       "basePrice": 185,
@@ -1204,7 +1204,7 @@
     },
     {
       "isOffShelf": false,
-      "tag": "小纖女！花椰菜米系列",
+      "tag": "小纖女！花椰菜米系列,辣,豬",
       "qty": 3,
       "name": "辣醬豚肉花椰菜米(380大卡)",
       "basePrice": 195,
@@ -1215,7 +1215,7 @@
     },
     {
       "isOffShelf": false,
-      "tag": "小纖女！花椰菜米系列",
+      "tag": "小纖女！花椰菜米系列,辣,海鮮",
       "qty": 3,
       "name": "蕃茄海鮮花椰菜米(246大卡)",
       "basePrice": 210,
@@ -1226,7 +1226,7 @@
     },
     {
       "isOffShelf": false,
-      "tag": "小纖女！花椰菜米系列",
+      "tag": "小纖女！花椰菜米系列,辣,雞",
       "qty": 3,
       "name": "烤雞莎莎花椰菜米(316大卡)",
       "basePrice": 150,
@@ -1237,7 +1237,7 @@
     },
     {
       "isOffShelf": false,
-      "tag": "小纖女！花椰菜米系列",
+      "tag": "小纖女！花椰菜米系列,酒,雞",
       "qty": 3,
       "name": "迷迭香烤雞花椰菜米(277大卡)",
       "basePrice": 175,
@@ -1248,7 +1248,7 @@
     },
     {
       "isOffShelf": false,
-      "tag": "小纖女！花椰菜米系列",
+      "tag": "小纖女！花椰菜米系列,辣,酒,雞",
       "qty": 3,
       "name": "三杯雞花椰菜米(283大卡)",
       "basePrice": 190,
@@ -1259,7 +1259,7 @@
     },
     {
       "isOffShelf": false,
-      "tag": "小纖女！花椰菜米系列",
+      "tag": "小纖女！花椰菜米系列,辣,雞",
       "qty": 3,
       "name": "南洋沙嗲雞花椰菜米(316大卡)",
       "basePrice": 185,
@@ -1270,7 +1270,7 @@
     },
     {
       "isOffShelf": false,
-      "tag": "小纖女！花椰菜米系列",
+      "tag": "小纖女！花椰菜米系列,辣,牛",
       "qty": 3,
       "name": "墨西哥風味牛肉花椰菜米(233大卡)",
       "basePrice": 160,
@@ -1281,7 +1281,7 @@
     },
     {
       "isOffShelf": false,
-      "tag": "小纖女！花椰菜米系列",
+      "tag": "小纖女！花椰菜米系列,辣,酒,雞",
       "qty": 3,
       "name": "泰式紅咖哩雞花椰菜米(293大卡)",
       "basePrice": 190,
@@ -1292,7 +1292,7 @@
     },
     {
       "isOffShelf": false,
-      "tag": "",
+      "tag": "限定回歸,辣,牛",
       "qty": 3,
       "name": "惡魔風義大利肉醬麵(410大卡)",
       "basePrice": 180,
@@ -1303,9 +1303,9 @@
     },
     {
       "isOffShelf": false,
-      "tag": "Leed限定",
+      "tag": "限定回歸,辣,雞",
       "qty": 3,
-      "name": "[Leed指定回歸] 麻香天使麵佐莎莎雞腿(426大卡)",
+      "name": "麻香天使麵佐莎莎雞腿(426大卡)",
       "basePrice": 170,
       "spicy": 1,
       "alcohol": false,
@@ -1314,9 +1314,9 @@
     },
     {
       "isOffShelf": false,
-      "tag": "Leed限定",
+      "tag": "限定回歸,辣,海鮮",
       "qty": 3,
-      "name": "[Leed指定回歸] 青醬海鮮義大利麵(563大卡)",
+      "name": "青醬海鮮義大利麵(563大卡)",
       "basePrice": 215,
       "spicy": 1,
       "alcohol": false,
@@ -1325,9 +1325,9 @@
     },
     {
       "isOffShelf": false,
-      "tag": "Leed限定",
+      "tag": "限定回歸,辣,雞",
       "qty": 3,
-      "name": "[Leed指定回歸] 水牛城辣雞腿(243大卡)",
+      "name": "水牛城辣雞腿(243大卡)",
       "basePrice": 125,
       "spicy": 2,
       "alcohol": false,
@@ -1336,9 +1336,9 @@
     },
     {
       "isOffShelf": false,
-      "tag": "Leed限定",
+      "tag": "限定回歸,雞",
       "qty": 3,
-      "name": "[Leed指定回歸] 日式醬烤雞腿(241大卡)",
+      "name": "日式醬烤雞腿(241大卡)",
       "basePrice": 120,
       "spicy": 0,
       "alcohol": false,
@@ -1347,9 +1347,9 @@
     },
     {
       "isOffShelf": false,
-      "tag": "Annie回歸",
+      "tag": "限定回歸,辣,豬",
       "qty": 3,
-      "name": "[Annie指定回歸] 酸辣豚肉湯(262大卡)",
+      "name": "酸辣豚肉湯(262大卡)",
       "basePrice": 145,
       "spicy": 1,
       "alcohol": false,
@@ -1358,9 +1358,9 @@
     },
     {
       "isOffShelf": false,
-      "tag": "料多多！米飯系列, 歐娜聯名",
+      "tag": "料多多！米飯系列, 歐娜聯名,辣,海鮮",
       "qty": 3,
-      "name": "[歐娜聯名] 粉紅醬海鮮燉飯(435大卡)",
+      "name": "粉紅醬海鮮燉飯(435大卡)",
       "basePrice": 215,
       "spicy": 1,
       "alcohol": false,
@@ -1369,9 +1369,9 @@
     },
     {
       "isOffShelf": false,
-      "tag": "小纖女！花椰菜米系列, 歐娜聯名",
+      "tag": "小纖女！花椰菜米系列, 歐娜聯名,辣,酒",
       "qty": 3,
-      "name": "[歐娜聯名] 日式明太子花椰菜米(291大卡)",
+      "name": "日式明太子花椰菜米(291大卡)",
       "basePrice": 225,
       "spicy": 1,
       "alcohol": true,
@@ -1380,7 +1380,7 @@
     },
     {
       "isOffShelf": false,
-      "tag": "",
+      "tag": "限定回歸",
       "qty": 5,
       "name": "百合桂圓美顏粥(205大卡)",
       "basePrice": 85,

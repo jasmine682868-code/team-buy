@@ -1,7 +1,7 @@
 {
   "cfg": {
     "title": "2026團購價目表",
-    "updated": "2026/05/09 16:18 更新",
+    "updated": "2026/05/09 23:15 更新",
     "banner": "https://lh3.googleusercontent.com/d/16XrAyvAoKa95vfY4CcaNtMIS0TeiLE3W",
     "styles": {
       "--fs-pname": "36px",
@@ -14,8 +14,14 @@
     },
     "tabStyles": {
       "products": {},
-      "combos": {},
-      "frozen": {},
+      "combos": {
+        "--fs-tier-price": "21px",
+        "--fs-tier-small": "12px"
+      },
+      "frozen": {
+        "--fs-product-name": "18px",
+        "--fs-tag": "12px"
+      },
       "oats": {}
     }
   },
@@ -30,7 +36,7 @@
       "spec": "30包/盒",
       "unit": 30,
       "official": 3310,
-      "tag": "消化冠軍",
+      "tag": "",
       "tiers": [
         {
           "qty": 1,
@@ -65,7 +71,7 @@
       "spec": "30包/盒",
       "unit": 30,
       "official": 3880,
-      "tag": "喝的PDRN(2026新上市）",
+      "tag": "2026.04.26新上市",
       "tiers": [
         {
           "qty": 1,
@@ -100,7 +106,7 @@
       "spec": "30包/盒",
       "unit": 30,
       "official": 1870,
-      "tag": "甜食剋星",
+      "tag": "",
       "tiers": [
         {
           "qty": 1,
@@ -135,7 +141,7 @@
       "spec": "30包/盒",
       "unit": 30,
       "official": 2310,
-      "tag": "油脂剋星、油脂代謝",
+      "tag": "",
       "tiers": [
         {
           "qty": 1,
@@ -170,7 +176,7 @@
       "spec": "60顆/盒",
       "unit": 60,
       "official": 1420,
-      "tag": "全能代謝",
+      "tag": "",
       "tiers": [
         {
           "qty": 1,
@@ -205,7 +211,7 @@
       "spec": "60顆/盒",
       "unit": 60,
       "official": 1760,
-      "tag": "快樂魚油",
+      "tag": "",
       "tiers": [
         {
           "qty": 1,
@@ -240,7 +246,7 @@
       "spec": "60顆/瓶",
       "unit": 60,
       "official": 2180,
-      "tag": "幫助入睡、提升夜間代謝",
+      "tag": "",
       "tiers": [
         {
           "qty": 1,
@@ -275,7 +281,7 @@
       "spec": "60顆/瓶",
       "unit": 60,
       "official": 3580,
-      "tag": "增加代謝、保護甲狀腺",
+      "tag": "",
       "tiers": [
         {
           "qty": 1,
@@ -310,7 +316,7 @@
       "spec": "60顆/瓶",
       "unit": 60,
       "official": 1480,
-      "tag": "包覆油脂、幫助排便",
+      "tag": "",
       "tiers": [
         {
           "qty": 1,
@@ -345,7 +351,7 @@
       "spec": "60顆/瓶",
       "unit": 60,
       "official": 1880,
-      "tag": "穩定血糖",
+      "tag": "",
       "tiers": [
         {
           "qty": 1,
@@ -373,7 +379,7 @@
     {
       "unitLabel": "瓶",
       "bgColor": "",
-      "img": "",
+      "img": "https://lh3.googleusercontent.com/d/1W4GxMNxLdzspDfcTlSyqgK4EGecov2Fm",
       "remark": "",
       "isOffShelf": false,
       "name": "SPIRIT'S SECRET 泌妍煥髮精華",
@@ -401,14 +407,14 @@
     {
       "unitLabel": "顆",
       "bgColor": "",
-      "img": "",
+      "img": "https://lh3.googleusercontent.com/d/1KR4pD3I7zwkxfuQK2ckvuTFYSoQcPft8",
       "remark": "",
       "isOffShelf": false,
       "name": "養泌法豐盈膠囊",
       "spec": "60顆/盒",
       "unit": 60,
       "official": 1580,
-      "tag": "生髮(2026上市)",
+      "tag": "即將上市",
       "tiers": [
         {
           "qty": 1,
@@ -443,7 +449,7 @@
       "spec": "20包/盒",
       "unit": 20,
       "official": 1760,
-      "tag": "護眼代謝 效期：2026/12/10",
+      "tag": "效期：2026/12/10",
       "tiers": [
         {
           "qty": 1,
@@ -478,7 +484,7 @@
       "spec": "60顆/瓶",
       "unit": 60,
       "official": 1920,
-      "tag": "亮妍提神(效期：2027/04/14)",
+      "tag": "效期：2027/04/14",
       "tiers": [
         {
           "qty": 1,
@@ -513,7 +519,7 @@
       "spec": "60顆/瓶",
       "unit": 60,
       "official": 2180,
-      "tag": "舒緩酸痛、抗發炎(效期：2027/02/24)",
+      "tag": "效期：2027/02/24",
       "tiers": [
         {
           "qty": 1,
@@ -535,6 +541,26 @@
           "note": "",
           "giftCount": 0,
           "giftValue": 0
+        }
+      ]
+    },
+    {
+      "name": "極光煥白膠原飲",
+      "spec": "7包/盒",
+      "unit": 7,
+      "unitLabel": "包",
+      "official": 1080,
+      "tag": "2026/04/26上市",
+      "img": "https://lh3.googleusercontent.com/d/1PRvYalU63Ym35Z0VomN7QjGQgbVLqX7s",
+      "bgColor": "",
+      "remark": "",
+      "isOffShelf": true,
+      "tiers": [
+        {
+          "qty": 1,
+          "price": 0,
+          "note": "",
+          "giftCount": 0
         }
       ]
     }
@@ -563,9 +589,9 @@
     },
     {
       "remark": "",
-      "comboGift": "",
-      "comboGiftValue": 0,
-      "img": "",
+      "comboGift": "X糖益生菌7入",
+      "comboGiftValue": 620,
+      "img": "https://lh3.googleusercontent.com/d/1wEY41RuJVX2wan26ncUuo8bVf56UrMWo",
       "isOffShelf": false,
       "name": "輕朔益生菌(30入)+X糖益生菌3.0(30入)",
       "items": [
@@ -586,7 +612,7 @@
       "remark": "",
       "comboGift": "",
       "comboGiftValue": 0,
-      "img": "",
+      "img": "https://lh3.googleusercontent.com/d/1qSNJhNNXKns99N3-hH8MWtHXcnLFj085",
       "isOffShelf": false,
       "name": "緩醣盾褐藻膠囊+輕朔益生菌(30入)",
       "items": [
@@ -607,28 +633,7 @@
       "remark": "",
       "comboGift": "",
       "comboGiftValue": 0,
-      "img": "",
-      "isOffShelf": false,
-      "name": "新組合",
-      "items": [
-        {
-          "productName": "輕朔益生菌",
-          "productSpec": "30包/盒",
-          "qty": 1
-        },
-        {
-          "productName": "緩醣盾褐藻膠囊",
-          "productSpec": "60顆/瓶",
-          "qty": 1
-        }
-      ],
-      "price": 3399
-    },
-    {
-      "remark": "",
-      "comboGift": "",
-      "comboGiftValue": 0,
-      "img": "",
+      "img": "https://lh3.googleusercontent.com/d/1OsSU1Bp9oSmjtxa3oiPc5p7ejAQF25bY",
       "isOffShelf": false,
       "name": "新組合",
       "items": [
@@ -649,7 +654,7 @@
       "remark": "",
       "comboGift": "",
       "comboGiftValue": 0,
-      "img": "",
+      "img": "https://lh3.googleusercontent.com/d/1BRdkMUv4b01fKkLCPLVNhD26UdtFlE2X",
       "isOffShelf": false,
       "name": "新組合",
       "items": [
@@ -670,7 +675,7 @@
       "remark": "",
       "comboGift": "",
       "comboGiftValue": 0,
-      "img": "",
+      "img": "https://lh3.googleusercontent.com/d/1UN-qFzZAhUlgs1eg4BvNsHsr1I9vIFAM",
       "isOffShelf": false,
       "name": "新組合",
       "items": [
@@ -691,7 +696,7 @@
       "remark": "",
       "comboGift": "",
       "comboGiftValue": 0,
-      "img": "",
+      "img": "https://lh3.googleusercontent.com/d/1jZItwJT29lGDRzp9HIeG2Lg5vs4X6Euo",
       "isOffShelf": false,
       "name": "新組合",
       "items": [
@@ -712,7 +717,7 @@
       "remark": "",
       "comboGift": "",
       "comboGiftValue": 0,
-      "img": "",
+      "img": "https://lh3.googleusercontent.com/d/1q4sTdNv5WBheUfpmSIZMfHjp_WCNV8Rq",
       "isOffShelf": false,
       "name": "新組合",
       "items": [
@@ -733,7 +738,7 @@
       "remark": "",
       "comboGift": "",
       "comboGiftValue": 0,
-      "img": "",
+      "img": "https://lh3.googleusercontent.com/d/1jcIH-Jz5j2oA1st9Rzu6STc1-ltgI84D",
       "isOffShelf": false,
       "name": "新組合",
       "items": [
@@ -754,7 +759,7 @@
       "remark": "",
       "comboGift": "",
       "comboGiftValue": 0,
-      "img": "",
+      "img": "https://lh3.googleusercontent.com/d/1cMvt2M8mibWt7WPyBocx03dfaWgkQrdr",
       "isOffShelf": false,
       "name": "新組合",
       "items": [
@@ -770,6 +775,48 @@
         }
       ],
       "price": 2238
+    },
+    {
+      "name": "新組合",
+      "remark": "",
+      "comboGift": "X糖益生菌7入",
+      "comboGiftValue": 620,
+      "img": "https://lh3.googleusercontent.com/d/1AcbdeMwVu_pFzUdDF7qbvWwhIBAhyOZY",
+      "isOffShelf": false,
+      "items": [
+        {
+          "productName": "鳳梨寡糖消化酵素飲",
+          "productSpec": "30包/盒",
+          "qty": 1
+        },
+        {
+          "productName": "X糖益生菌",
+          "productSpec": "30包/盒",
+          "qty": 1
+        },
+        {
+          "productName": "緩醣盾褐藻膠囊",
+          "productSpec": "60顆/瓶",
+          "qty": 1
+        }
+      ],
+      "price": 5399
+    },
+    {
+      "name": "新組合",
+      "remark": "",
+      "comboGift": "",
+      "comboGiftValue": 0,
+      "img": "https://lh3.googleusercontent.com/d/1Psjx6lNbNJdscLVUcOW4-Et3s9F6l1hT",
+      "isOffShelf": false,
+      "items": [
+        {
+          "productName": "極光煥白膠原飲",
+          "productSpec": "7包/盒",
+          "qty": 2
+        }
+      ],
+      "price": 1299
     }
   ],
   "frozen": [
@@ -782,7 +829,7 @@
       "spicy": 0,
       "alcohol": false,
       "discount": 0.88,
-      "img": ""
+      "img": "https://lh3.googleusercontent.com/d/1sf5reMGjb7VGUoXSgtzdaZDMcA992LD0"
     },
     {
       "isOffShelf": false,
@@ -793,7 +840,7 @@
       "spicy": 0,
       "alcohol": false,
       "discount": 0.88,
-      "img": ""
+      "img": "https://lh3.googleusercontent.com/d/1LhM79D_gQhhdDHsEf8vW3vVvMwqAoDBj"
     },
     {
       "isOffShelf": false,
@@ -804,7 +851,7 @@
       "spicy": 0,
       "alcohol": false,
       "discount": 0.88,
-      "img": ""
+      "img": "https://lh3.googleusercontent.com/d/1a7KLAw3RozbwX2JoOgGtsbiQyPCJ3nyO"
     },
     {
       "isOffShelf": false,
@@ -814,8 +861,8 @@
       "basePrice": 155,
       "spicy": 0,
       "alcohol": false,
-      "discount": 0.88,
-      "img": ""
+      "discount": 0.8817,
+      "img": "https://lh3.googleusercontent.com/d/1f7kG0SuH-AD3X5hkyehgpGl7zd7yLTCB"
     },
     {
       "isOffShelf": false,
@@ -825,8 +872,8 @@
       "basePrice": 155,
       "spicy": 1,
       "alcohol": false,
-      "discount": 0.88,
-      "img": ""
+      "discount": 0.8817,
+      "img": "https://lh3.googleusercontent.com/d/1ajhfrGoEQkkOzGUj1t655M8oNrJ0e0qG"
     },
     {
       "isOffShelf": false,
@@ -837,7 +884,7 @@
       "spicy": 1,
       "alcohol": false,
       "discount": 0.88,
-      "img": ""
+      "img": "https://lh3.googleusercontent.com/d/1qk22mCO_T5VXD3kd_bIa4KU_yNSgsF2q"
     },
     {
       "isOffShelf": false,
@@ -847,41 +894,41 @@
       "basePrice": 165,
       "spicy": 1,
       "alcohol": true,
-      "discount": 0.88,
-      "img": ""
+      "discount": 0.9091,
+      "img": "https://lh3.googleusercontent.com/d/19mzvZT0kX_8gx1_ddh3e7EpU4U0vZhe5"
     },
     {
       "isOffShelf": false,
       "tag": "團購獨家！手工麵捲系列, 歐娜聯名,辣,雞",
       "qty": 3,
       "name": "手工奶油香蒜雞肉麵捲(370大卡)",
-      "basePrice": 155,
+      "basePrice": 170,
       "spicy": 1,
       "alcohol": false,
-      "discount": 0.88,
-      "img": ""
+      "discount": 0.9118,
+      "img": "https://lh3.googleusercontent.com/d/1poFwUy64R295eqUJEdrKR-0EcbgiEwxQ"
     },
     {
       "isOffShelf": false,
       "tag": "團購獨家！手工麵捲系列, 歐娜聯名,辣,雞",
       "qty": 3,
       "name": "手工煙花女墨魚雞肉麵捲(286大卡)",
-      "basePrice": 165,
+      "basePrice": 180,
       "spicy": 1,
       "alcohol": false,
-      "discount": 0.88,
-      "img": ""
+      "discount": 0.9167,
+      "img": "https://lh3.googleusercontent.com/d/1k5c5Vx0N5ZBNEYK8JBk_TiKpwwIwckd1"
     },
     {
       "isOffShelf": false,
       "tag": "團購獨家！手工麵捲系列, 歐娜聯名,辣,酒,雞",
       "qty": 3,
       "name": "手工白酒蛤蠣雞肉麵捲(348大卡)",
-      "basePrice": 190,
+      "basePrice": 210,
       "spicy": 1,
       "alcohol": true,
-      "discount": 0.88,
-      "img": ""
+      "discount": 0.9048,
+      "img": "https://lh3.googleusercontent.com/d/1ckL-X4GqyC5Qb5ykIFSdjS3FJf7bGQKc"
     },
     {
       "isOffShelf": false,
@@ -892,7 +939,7 @@
       "spicy": 0,
       "alcohol": false,
       "discount": 0.88,
-      "img": ""
+      "img": "https://lh3.googleusercontent.com/d/1utGZX7yPAF2XJnHSTOQ9iwurLDXJFB5O"
     },
     {
       "isOffShelf": false,
@@ -902,8 +949,8 @@
       "basePrice": 155,
       "spicy": 0,
       "alcohol": true,
-      "discount": 0.88,
-      "img": ""
+      "discount": 0.8817,
+      "img": "https://lh3.googleusercontent.com/d/1GDGH4Z2-dJT2mwIe8chKjtKy79Ta6SYV"
     },
     {
       "isOffShelf": false,
@@ -914,7 +961,7 @@
       "spicy": 0,
       "alcohol": true,
       "discount": 0.88,
-      "img": ""
+      "img": "https://lh3.googleusercontent.com/d/1YqYU-ODe2-H-r1ovYNISDt8pzdg74goe"
     },
     {
       "isOffShelf": false,
@@ -925,7 +972,7 @@
       "spicy": 0,
       "alcohol": false,
       "discount": 0.88,
-      "img": ""
+      "img": "https://lh3.googleusercontent.com/d/1o_1fJc1sy1cw1Ir-RFE1BpI_1IJi0gYT"
     },
     {
       "isOffShelf": false,
@@ -936,7 +983,7 @@
       "spicy": 0,
       "alcohol": true,
       "discount": 0.88,
-      "img": ""
+      "img": "https://lh3.googleusercontent.com/d/1oK9WvAOQKfgDRxt7Hi8V63cCCAd5Gq7a"
     },
     {
       "isOffShelf": false,
@@ -947,7 +994,7 @@
       "spicy": 0,
       "alcohol": true,
       "discount": 0.88,
-      "img": ""
+      "img": "https://lh3.googleusercontent.com/d/10-I7mGKk7zO0FP2DeQmwwlkCDOTvYr59"
     },
     {
       "isOffShelf": false,
@@ -958,7 +1005,7 @@
       "spicy": 1,
       "alcohol": true,
       "discount": 0.88,
-      "img": ""
+      "img": "https://lh3.googleusercontent.com/d/1Ailz-mUiNdCn0tzJ0O4SoLECbSxLzfcC"
     },
     {
       "isOffShelf": false,
@@ -969,7 +1016,7 @@
       "spicy": 1,
       "alcohol": true,
       "discount": 0.88,
-      "img": ""
+      "img": "https://lh3.googleusercontent.com/d/1zt4wJCWapiKuJ3zFMYC1iRp5QCNzMRPn"
     },
     {
       "isOffShelf": false,
@@ -980,7 +1027,7 @@
       "spicy": 1,
       "alcohol": true,
       "discount": 0.88,
-      "img": ""
+      "img": "https://lh3.googleusercontent.com/d/1Eed8jZZdnvtRTMtmA5vAwJn0enil1Lbi"
     },
     {
       "isOffShelf": false,
@@ -991,7 +1038,7 @@
       "spicy": 1,
       "alcohol": true,
       "discount": 0.88,
-      "img": ""
+      "img": "https://lh3.googleusercontent.com/d/1X0wiDSzCuYHD2gY89hw5fbdoNuvfsOpZ"
     },
     {
       "isOffShelf": false,
@@ -1002,7 +1049,7 @@
       "spicy": 1,
       "alcohol": false,
       "discount": 0.88,
-      "img": ""
+      "img": "https://lh3.googleusercontent.com/d/19VO9rQ9T5Rgo6wUf5Inr7_WFydeKE_tZ"
     },
     {
       "isOffShelf": false,
@@ -1013,7 +1060,7 @@
       "spicy": 1,
       "alcohol": false,
       "discount": 0.88,
-      "img": ""
+      "img": "https://lh3.googleusercontent.com/d/1IAIzA90DC45_7bvC5G6qFskIxO6IjqPv"
     },
     {
       "isOffShelf": false,
@@ -1023,8 +1070,8 @@
       "basePrice": 155,
       "spicy": 1,
       "alcohol": true,
-      "discount": 0.88,
-      "img": ""
+      "discount": 0.8817,
+      "img": "https://lh3.googleusercontent.com/d/1ekdjfsGA1rQ8cZ6mNCLiwJgdDJIxLg-K"
     },
     {
       "isOffShelf": false,
@@ -1035,7 +1082,7 @@
       "spicy": 0,
       "alcohol": false,
       "discount": 0.88,
-      "img": ""
+      "img": "https://lh3.googleusercontent.com/d/1eYh9mu40XUNGuUG1TfSjeO-swGpRSd_u"
     },
     {
       "isOffShelf": false,
@@ -1046,7 +1093,7 @@
       "spicy": 1,
       "alcohol": true,
       "discount": 0.88,
-      "img": ""
+      "img": "https://lh3.googleusercontent.com/d/1_q6EK4F6SlB8QeTEI6q0ST5UAJN23Ax0"
     },
     {
       "isOffShelf": false,
@@ -1057,7 +1104,7 @@
       "spicy": 0,
       "alcohol": false,
       "discount": 0.88,
-      "img": ""
+      "img": "https://lh3.googleusercontent.com/d/1H18YN05-Q_17PTvjCzbKfecTHcSYnVc1"
     },
     {
       "isOffShelf": false,
@@ -1067,8 +1114,8 @@
       "basePrice": 155,
       "spicy": 0,
       "alcohol": false,
-      "discount": 0.88,
-      "img": ""
+      "discount": 0.8817,
+      "img": "https://lh3.googleusercontent.com/d/1t4Gpfo3wR-T-IyqD-9FWeSblYtYHaEXv"
     },
     {
       "isOffShelf": false,
@@ -1079,7 +1126,7 @@
       "spicy": 0,
       "alcohol": true,
       "discount": 0.88,
-      "img": ""
+      "img": "https://lh3.googleusercontent.com/d/1QUBmzy-Th3THwpFfZNeQbXVqFt8o11Ry"
     },
     {
       "isOffShelf": false,
@@ -1090,7 +1137,7 @@
       "spicy": 0,
       "alcohol": true,
       "discount": 0.88,
-      "img": ""
+      "img": "https://lh3.googleusercontent.com/d/1_q6EK4F6SlB8QeTEI6q0ST5UAJN23Ax0"
     },
     {
       "isOffShelf": false,
@@ -1100,8 +1147,8 @@
       "basePrice": 155,
       "spicy": 0,
       "alcohol": false,
-      "discount": 0.88,
-      "img": ""
+      "discount": 0.8817,
+      "img": "https://lh3.googleusercontent.com/d/1_l1bq3hH8abHGIKRgd19FhKUl103kceW"
     },
     {
       "isOffShelf": false,
@@ -1112,7 +1159,7 @@
       "spicy": 0,
       "alcohol": true,
       "discount": 0.88,
-      "img": ""
+      "img": "https://lh3.googleusercontent.com/d/1s-Z2SHalRo2k82Oh4N4AW9J7nbWx5qMB"
     },
     {
       "isOffShelf": false,
@@ -1122,8 +1169,8 @@
       "basePrice": 170,
       "spicy": 0,
       "alcohol": false,
-      "discount": 0.88,
-      "img": ""
+      "discount": 0.8824,
+      "img": "https://lh3.googleusercontent.com/d/1Lo9di6YSnDF2reBF5Ddr8ozgJMwIEk8n"
     },
     {
       "isOffShelf": false,
@@ -1134,7 +1181,7 @@
       "spicy": 1,
       "alcohol": false,
       "discount": 0.88,
-      "img": ""
+      "img": "https://lh3.googleusercontent.com/d/18gAMjadu6QIQHmgAhp8itwSW0-9gNo86"
     },
     {
       "isOffShelf": false,
@@ -1145,7 +1192,7 @@
       "spicy": 0,
       "alcohol": false,
       "discount": 0.88,
-      "img": ""
+      "img": "https://lh3.googleusercontent.com/d/1nKCvIRBWKLv-af6BybbvD-CVoGglrHqd"
     },
     {
       "isOffShelf": false,
@@ -1155,8 +1202,8 @@
       "basePrice": 220,
       "spicy": 1,
       "alcohol": true,
-      "discount": 0.88,
-      "img": ""
+      "discount": 0.8788,
+      "img": "https://lh3.googleusercontent.com/d/17Z-ytpxiO3ksPMdKm4QeMvxyLjvr_Abs"
     },
     {
       "isOffShelf": false,
@@ -1167,7 +1214,7 @@
       "spicy": 0,
       "alcohol": true,
       "discount": 0.88,
-      "img": ""
+      "img": "https://lh3.googleusercontent.com/d/1HfHP_9INoWGOCx75zW-Y3rYDHyZ4jcpf"
     },
     {
       "isOffShelf": false,
@@ -1178,7 +1225,7 @@
       "spicy": 1,
       "alcohol": false,
       "discount": 0.88,
-      "img": ""
+      "img": "https://lh3.googleusercontent.com/d/12ej2J1sHvm2ous9taIM2RxcVv0Vacf1C"
     },
     {
       "isOffShelf": false,
@@ -1189,7 +1236,7 @@
       "spicy": 1,
       "alcohol": true,
       "discount": 0.88,
-      "img": ""
+      "img": "https://lh3.googleusercontent.com/d/1-a_48MESXqxYr3EGCKh7BnuX8UHQoo2I"
     },
     {
       "isOffShelf": false,
@@ -1200,7 +1247,7 @@
       "spicy": 1,
       "alcohol": true,
       "discount": 0.88,
-      "img": ""
+      "img": "https://lh3.googleusercontent.com/d/17eh6BqlJidbYn27MAdPClY42pFZ5tHV7"
     },
     {
       "isOffShelf": false,
@@ -1211,7 +1258,7 @@
       "spicy": 1,
       "alcohol": false,
       "discount": 0.88,
-      "img": ""
+      "img": "https://lh3.googleusercontent.com/d/1Xo3yXrYznawEvAUJDCbTPCjdat8XoTeS"
     },
     {
       "isOffShelf": false,
@@ -1221,19 +1268,19 @@
       "basePrice": 210,
       "spicy": 1,
       "alcohol": false,
-      "discount": 0.88,
-      "img": ""
+      "discount": 0.881,
+      "img": "https://lh3.googleusercontent.com/d/13HToHIZ36iuG6S1CmQs5hHy_bQ4lHV6t"
     },
     {
       "isOffShelf": false,
       "tag": "小纖女！花椰菜米系列,辣,雞",
       "qty": 3,
       "name": "烤雞莎莎花椰菜米(316大卡)",
-      "basePrice": 150,
+      "basePrice": 175,
       "spicy": 1,
       "alcohol": false,
       "discount": 0.88,
-      "img": ""
+      "img": "https://lh3.googleusercontent.com/d/1ViuHE2nE8NVuAD6_IG-kDwZn0joYvRPD"
     },
     {
       "isOffShelf": false,
@@ -1244,7 +1291,7 @@
       "spicy": 0,
       "alcohol": true,
       "discount": 0.88,
-      "img": ""
+      "img": "https://lh3.googleusercontent.com/d/1MHfPKjv3fIGXs1AywjRfRHGQJ1gGKsqX"
     },
     {
       "isOffShelf": false,
@@ -1255,7 +1302,7 @@
       "spicy": 1,
       "alcohol": true,
       "discount": 0.88,
-      "img": ""
+      "img": "https://lh3.googleusercontent.com/d/1jDpoZPJGGzJD_T-fUHONM1Uaq_w6e-8x"
     },
     {
       "isOffShelf": false,
@@ -1266,7 +1313,7 @@
       "spicy": 1,
       "alcohol": false,
       "discount": 0.88,
-      "img": ""
+      "img": "https://lh3.googleusercontent.com/d/17mU2xG8-QhYvjPved29iIXDOtBrD-2sl"
     },
     {
       "isOffShelf": false,
@@ -1277,7 +1324,7 @@
       "spicy": 1,
       "alcohol": false,
       "discount": 0.88,
-      "img": ""
+      "img": "https://lh3.googleusercontent.com/d/1buJwuhhERMagJIiCyWUC_5wyrXjhH7om"
     },
     {
       "isOffShelf": false,
@@ -1288,73 +1335,73 @@
       "spicy": 2,
       "alcohol": true,
       "discount": 0.88,
-      "img": ""
+      "img": "https://lh3.googleusercontent.com/d/164QDmcwy1akVrNC2CDtE2wOnL6HNdMia"
     },
     {
       "isOffShelf": false,
-      "tag": "限定回歸,辣,牛",
+      "tag": "限定回歸,辣,牛,Annie,Leed",
       "qty": 3,
       "name": "惡魔風義大利肉醬麵(410大卡)",
       "basePrice": 180,
       "spicy": 1,
       "alcohol": false,
       "discount": 0.88,
-      "img": ""
+      "img": "https://lh3.googleusercontent.com/d/1M8tH8i2oeXgm6HYjfF_-kqTpxjsCBGD2"
     },
     {
       "isOffShelf": false,
-      "tag": "限定回歸,辣,雞",
+      "tag": "限定回歸,辣,雞,Leed",
       "qty": 3,
       "name": "麻香天使麵佐莎莎雞腿(426大卡)",
-      "basePrice": 170,
+      "basePrice": 190,
       "spicy": 1,
       "alcohol": false,
       "discount": 0.88,
-      "img": ""
+      "img": "https://lh3.googleusercontent.com/d/1AMTEYxpqaI52XNVYyGjwjL4H6_oZA8ep"
     },
     {
       "isOffShelf": false,
-      "tag": "限定回歸,辣,海鮮",
+      "tag": "限定回歸,辣,海鮮,Leed",
       "qty": 3,
       "name": "青醬海鮮義大利麵(563大卡)",
       "basePrice": 215,
       "spicy": 1,
       "alcohol": false,
-      "discount": 0.88,
-      "img": ""
+      "discount": 0.8837,
+      "img": "https://lh3.googleusercontent.com/d/1L30Rxz34M6aIlnW6LafIZErXvoOEOoAB"
     },
     {
       "isOffShelf": false,
-      "tag": "限定回歸,辣,雞",
+      "tag": "限定回歸,辣,雞,Leed",
       "qty": 3,
       "name": "水牛城辣雞腿(243大卡)",
       "basePrice": 125,
       "spicy": 2,
       "alcohol": false,
       "discount": 0.88,
-      "img": ""
+      "img": "https://lh3.googleusercontent.com/d/1SdPK3q3QqZ9eFOvWQXo7sztgxRQaRDYP"
     },
     {
       "isOffShelf": false,
-      "tag": "限定回歸,雞",
+      "tag": "限定回歸,雞,Leed",
       "qty": 3,
       "name": "日式醬烤雞腿(241大卡)",
       "basePrice": 120,
       "spicy": 0,
       "alcohol": false,
       "discount": 0.88,
-      "img": ""
+      "img": "https://lh3.googleusercontent.com/d/11wRiGWe46oQzxS9Ow1Bhr0Y8zQnZSX0H"
     },
     {
       "isOffShelf": false,
-      "tag": "限定回歸,辣,豬",
+      "tag": "限定回歸,辣,豬,Annie",
       "qty": 3,
       "name": "酸辣豚肉湯(262大卡)",
       "basePrice": 145,
       "spicy": 1,
       "alcohol": false,
       "discount": 0.88,
-      "img": ""
+      "img": "https://lh3.googleusercontent.com/d/1B5RUELIcS6szUpnzKAMP8nAtmABdAFqX"
     },
     {
       "isOffShelf": false,
@@ -1364,8 +1411,8 @@
       "basePrice": 215,
       "spicy": 1,
       "alcohol": false,
-      "discount": 0.88,
-      "img": ""
+      "discount": 0.907,
+      "img": "https://lh3.googleusercontent.com/d/1rLbm2ede1wtHbHRq9PkU2qy-DcUpdZ77"
     },
     {
       "isOffShelf": false,
@@ -1375,8 +1422,8 @@
       "basePrice": 225,
       "spicy": 1,
       "alcohol": true,
-      "discount": 0.88,
-      "img": ""
+      "discount": 0.9111,
+      "img": "https://lh3.googleusercontent.com/d/1jr5-bnCpmkYbP5eGmioi0dqG4B6x3IUF"
     },
     {
       "isOffShelf": false,
@@ -1386,55 +1433,77 @@
       "basePrice": 85,
       "spicy": 0,
       "alcohol": false,
+      "discount": 0.8824,
+      "img": "https://lh3.googleusercontent.com/d/17fYvLjKDqM-2HM_AUD3bSTBWeEOcS0NU"
+    },
+    {
+      "name": "泰式酸辣海鮮湯(202大卡)",
+      "basePrice": 200,
+      "spicy": 1,
+      "alcohol": false,
       "discount": 0.88,
-      "img": ""
+      "qty": 3,
+      "img": "https://lh3.googleusercontent.com/d/1V5BYoXzWtIVOo1oxbD8alBe2gIKlhfm1",
+      "tag": "限定回歸,海鮮,辣",
+      "isOffShelf": false
+    },
+    {
+      "name": "南瓜奶油海鮮濃湯(310大卡)",
+      "basePrice": 200,
+      "spicy": 0,
+      "alcohol": false,
+      "discount": 0.88,
+      "qty": 3,
+      "img": "https://lh3.googleusercontent.com/d/1FgfuKgsOjzdrYo88bwGdclTMob_i63EV",
+      "tag": "限定回歸,海鮮",
+      "isOffShelf": false
     }
   ],
   "oats": {
     "flavors": [
       {
-        "img": "",
-        "tag": "",
+        "img": "https://lh3.googleusercontent.com/d/1YBMk751nDS68iqJ8mZtsEyFID_vNdKhu",
+        "tag": "🍫",
         "name": "法芙娜巧克力",
         "spec": "100G/包",
         "price": 250,
         "icon": "🍫"
       },
       {
-        "img": "",
-        "tag": "",
+        "img": "https://lh3.googleusercontent.com/d/1ZfjegpMdHdj9ppq1PjSKBDxKcp7Ub_6S",
+        "tag": "🍯",
         "name": "蜂蜜玉米",
         "spec": "100G/包",
         "price": 250,
         "icon": "🌽"
       },
       {
-        "img": "",
-        "tag": "",
+        "img": "https://lh3.googleusercontent.com/d/1NoIkqVydjYHPdm4oYQNT_NsaAMoEYXxL",
+        "tag": "🧂🍭",
         "name": "海鹽太妃糖",
         "spec": "100G/包",
         "price": 280,
         "icon": "🍬"
       },
       {
-        "img": "",
-        "tag": "",
+        "img": "https://lh3.googleusercontent.com/d/1XlhlBmLB2CE91IiNaX_tWLbTCIEzbUoT",
+        "tag": "🧋",
         "name": "黑糖烤茶",
         "spec": "100G/包",
         "price": 250,
         "icon": "🍵"
       },
       {
-        "img": "",
-        "tag": "",
+        "img": "https://lh3.googleusercontent.com/d/1UIV4aBY3EU1uSEwoy0wpZaUI3CVkFYQl",
+        "tag": "🍫🌰",
         "name": "香緹白巧開心果",
         "spec": "100G/包",
         "price": 260,
         "icon": "🥜"
       },
       {
-        "img": "",
-        "tag": "季節限定",
+        "img": "https://lh3.googleusercontent.com/d/1SdLHs52ZmBtEGYz_wVM0LIXghWvChpZD",
+        "tag": "季節限定🐣",
         "name": "復刻鹹蛋黃",
         "spec": "100G/包",
         "price": 270,
@@ -1442,7 +1511,7 @@
       },
       {
         "img": "",
-        "tag": "季節限定",
+        "tag": "季節限定🫚🍫",
         "name": "肉桂可可",
         "spec": "100G/包",
         "price": 280,

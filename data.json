@@ -1,7 +1,7 @@
 {
   "cfg": {
     "title": "2026團購價目表",
-    "updated": "2026/05/10 14:14 更新",
+    "updated": "2026/05/10 14:18 更新",
     "banner": "https://lh3.googleusercontent.com/d/16XrAyvAoKa95vfY4CcaNtMIS0TeiLE3W",
     "styles": {
       "--fs-pname": "36px",
@@ -883,7 +883,7 @@
       "basePrice": 155,
       "spicy": 1,
       "alcohol": false,
-      "discount": 0.88,
+      "discount": 0.8817,
       "img": "https://lh3.googleusercontent.com/d/1qk22mCO_T5VXD3kd_bIa4KU_yNSgsF2q"
     },
     {

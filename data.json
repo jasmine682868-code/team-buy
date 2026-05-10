@@ -1,7 +1,7 @@
 {
   "cfg": {
     "title": "2026團購價目表",
-    "updated": "2026/05/09 23:15 更新",
+    "updated": "2026/05/10 14:14 更新",
     "banner": "https://lh3.googleusercontent.com/d/16XrAyvAoKa95vfY4CcaNtMIS0TeiLE3W",
     "styles": {
       "--fs-pname": "36px",
@@ -545,16 +545,16 @@
       ]
     },
     {
+      "unitLabel": "包",
+      "bgColor": "",
+      "img": "https://lh3.googleusercontent.com/d/1PRvYalU63Ym35Z0VomN7QjGQgbVLqX7s",
+      "remark": "",
+      "isOffShelf": true,
       "name": "極光煥白膠原飲",
       "spec": "7包/盒",
       "unit": 7,
-      "unitLabel": "包",
       "official": 1080,
       "tag": "2026/04/26上市",
-      "img": "https://lh3.googleusercontent.com/d/1PRvYalU63Ym35Z0VomN7QjGQgbVLqX7s",
-      "bgColor": "",
-      "remark": "",
-      "isOffShelf": true,
       "tiers": [
         {
           "qty": 1,
@@ -777,12 +777,12 @@
       "price": 2238
     },
     {
-      "name": "新組合",
       "remark": "",
       "comboGift": "X糖益生菌7入",
       "comboGiftValue": 620,
       "img": "https://lh3.googleusercontent.com/d/1AcbdeMwVu_pFzUdDF7qbvWwhIBAhyOZY",
       "isOffShelf": false,
+      "name": "新組合",
       "items": [
         {
           "productName": "鳳梨寡糖消化酵素飲",
@@ -803,12 +803,12 @@
       "price": 5399
     },
     {
-      "name": "新組合",
       "remark": "",
       "comboGift": "",
       "comboGiftValue": 0,
       "img": "https://lh3.googleusercontent.com/d/1Psjx6lNbNJdscLVUcOW4-Et3s9F6l1hT",
       "isOffShelf": false,
+      "name": "新組合",
       "items": [
         {
           "productName": "極光煥白膠原飲",
@@ -1276,7 +1276,7 @@
       "tag": "小纖女！花椰菜米系列,辣,雞",
       "qty": 3,
       "name": "烤雞莎莎花椰菜米(316大卡)",
-      "basePrice": 175,
+      "basePrice": 150,
       "spicy": 1,
       "alcohol": false,
       "discount": 0.88,
@@ -1437,26 +1437,26 @@
       "img": "https://lh3.googleusercontent.com/d/17fYvLjKDqM-2HM_AUD3bSTBWeEOcS0NU"
     },
     {
+      "isOffShelf": false,
+      "tag": "限定回歸,海鮮,辣",
+      "qty": 3,
       "name": "泰式酸辣海鮮湯(202大卡)",
       "basePrice": 200,
       "spicy": 1,
       "alcohol": false,
       "discount": 0.88,
-      "qty": 3,
-      "img": "https://lh3.googleusercontent.com/d/1V5BYoXzWtIVOo1oxbD8alBe2gIKlhfm1",
-      "tag": "限定回歸,海鮮,辣",
-      "isOffShelf": false
+      "img": "https://lh3.googleusercontent.com/d/1V5BYoXzWtIVOo1oxbD8alBe2gIKlhfm1"
     },
     {
+      "isOffShelf": false,
+      "tag": "限定回歸,海鮮",
+      "qty": 3,
       "name": "南瓜奶油海鮮濃湯(310大卡)",
       "basePrice": 200,
       "spicy": 0,
       "alcohol": false,
       "discount": 0.88,
-      "qty": 3,
-      "img": "https://lh3.googleusercontent.com/d/1FgfuKgsOjzdrYo88bwGdclTMob_i63EV",
-      "tag": "限定回歸,海鮮",
-      "isOffShelf": false
+      "img": "https://lh3.googleusercontent.com/d/1FgfuKgsOjzdrYo88bwGdclTMob_i63EV"
     }
   ],
   "oats": {

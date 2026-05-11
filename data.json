@@ -1,7 +1,7 @@
 {
   "cfg": {
     "title": "2026團購價目表",
-    "updated": "2026/05/11 12:27 更新",
+    "updated": "2026/05/11 12:37 更新",
     "banner": "https://lh3.googleusercontent.com/d/1uRVzESrmK_zFo5Y7QRYGCmn3oYIQiB5b",
     "styles": {
       "--fs-pname": "36px",
@@ -82,7 +82,7 @@
         },
         {
           "qty": 3,
-          "price": 8155,
+          "price": 8055,
           "note": "",
           "giftCount": 0,
           "giftValue": 0

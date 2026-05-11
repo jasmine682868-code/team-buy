@@ -1,7 +1,7 @@
 {
   "cfg": {
     "title": "NISORO團購價目表",
-    "updated": "2026/05/11 13:33 更新",
+    "updated": "2026/05/11 13:35 更新",
     "banner": "https://lh3.googleusercontent.com/d/1uRVzESrmK_zFo5Y7QRYGCmn3oYIQiB5b",
     "styles": {
       "--fs-pname": "36px",
@@ -1527,7 +1527,7 @@
           "黑糖烤茶"
         ],
         "type": "fixed",
-        "desc": "",
+        "desc": "單口味3包也可以：此方案不可以有開心果",
         "name": "3包組",
         "price": 499
       },
@@ -1565,14 +1565,6 @@
         "desc": "",
         "name": "5包同口味｜外部團購",
         "price": 833
-      },
-      {
-        "qty": 10,
-        "fixedFlavors": [],
-        "type": "single",
-        "desc": "",
-        "name": "10包同口味",
-        "price": 1388
       },
       {
         "qty": 12,

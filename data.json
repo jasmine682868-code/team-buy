@@ -1,7 +1,7 @@
 {
   "cfg": {
     "title": "NISORO團購價目表",
-    "updated": "2026/05/13 15:05 更新",
+    "updated": "2026/05/13 15:12 更新",
     "banner": "https://lh3.googleusercontent.com/d/1uRVzESrmK_zFo5Y7QRYGCmn3oYIQiB5b",
     "styles": {
       "--fs-pname": "36px",
@@ -565,16 +565,16 @@
       ]
     },
     {
+      "unitLabel": "包",
+      "bgColor": "",
+      "img": "",
+      "remark": "",
+      "isOffShelf": true,
       "name": "鳳梨寡糖消化酵素飲",
       "spec": "7包/盒",
       "unit": 7,
-      "unitLabel": "包",
       "official": 899,
       "tag": "",
-      "img": "",
-      "bgColor": "",
-      "remark": "",
-      "isOffShelf": true,
       "tiers": [
         {
           "qty": 1,
@@ -844,12 +844,12 @@
       "price": 1299
     },
     {
-      "name": "新組合",
       "remark": "",
       "comboGift": "",
       "comboGiftValue": 0,
       "img": "https://lh3.googleusercontent.com/d/1W3SD7yk_lnzO3GxVrvVk7GOI32FQe5Vr",
       "isOffShelf": false,
+      "name": "新組合",
       "items": [
         {
           "productName": "鳳梨寡糖消化酵素飲",
@@ -862,7 +862,7 @@
           "qty": 1
         }
       ],
-      "price": 0
+      "price": 1399
     }
   ],
   "frozen": [

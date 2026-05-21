@@ -1,7 +1,7 @@
 {
   "cfg": {
-    "title": "NISORO團購價目表",
-    "updated": "2026/05/13 15:12 更新",
+    "title": "2026團購價目表",
+    "updated": "2026/05/21 15:46 更新",
     "banner": "https://lh3.googleusercontent.com/d/1uRVzESrmK_zFo5Y7QRYGCmn3oYIQiB5b",
     "styles": {
       "--fs-pname": "36px",
@@ -277,7 +277,7 @@
       "img": "https://lh3.googleusercontent.com/d/170MwKetuOt_4lf3akUYWu6ua5e0Jladu",
       "remark": "",
       "isOffShelf": false,
-      "name": "好硒利代謝膠囊",
+      "name": "好硒利X代謝膠囊",
       "spec": "60顆/瓶",
       "unit": 60,
       "official": 3580,
@@ -414,25 +414,25 @@
       "spec": "60顆/盒",
       "unit": 60,
       "official": 1580,
-      "tag": "即將上市",
+      "tag": "2026/5/18上市",
       "tiers": [
         {
           "qty": 1,
-          "price": 1260,
+          "price": 1340,
           "note": "",
           "giftCount": 0,
           "giftValue": 0
         },
         {
           "qty": 3,
-          "price": 3550,
+          "price": 3790,
           "note": "",
           "giftCount": 0,
           "giftValue": 0
         },
         {
           "qty": 5,
-          "price": 5550,
+          "price": 5925,
           "note": "",
           "giftCount": 0,
           "giftValue": 0
@@ -558,27 +558,7 @@
       "tiers": [
         {
           "qty": 1,
-          "price": 1080,
-          "note": "",
-          "giftCount": 0
-        }
-      ]
-    },
-    {
-      "unitLabel": "包",
-      "bgColor": "",
-      "img": "",
-      "remark": "",
-      "isOffShelf": true,
-      "name": "鳳梨寡糖消化酵素飲",
-      "spec": "7包/盒",
-      "unit": 7,
-      "official": 899,
-      "tag": "",
-      "tiers": [
-        {
-          "qty": 1,
-          "price": 899,
+          "price": 0,
           "note": "",
           "giftCount": 0
         }
@@ -679,7 +659,7 @@
       "name": "新組合",
       "items": [
         {
-          "productName": "好硒利代謝膠囊",
+          "productName": "好硒利X代謝膠囊",
           "productSpec": "60顆/瓶",
           "qty": 1
         },
@@ -700,7 +680,7 @@
       "name": "新組合",
       "items": [
         {
-          "productName": "狼順便秋葵膠囊",
+          "productName": "狠順便秋葵膠囊",
           "productSpec": "60顆/瓶",
           "qty": 1
         },
@@ -833,36 +813,10 @@
         {
           "productName": "極光煥白膠原飲",
           "productSpec": "7包/盒",
-          "qty": 1
-        },
-        {
-          "productName": "極光煥白膠原飲",
-          "productSpec": "7包/盒",
-          "qty": 1
+          "qty": 2
         }
       ],
       "price": 1299
-    },
-    {
-      "remark": "",
-      "comboGift": "",
-      "comboGiftValue": 0,
-      "img": "https://lh3.googleusercontent.com/d/1W3SD7yk_lnzO3GxVrvVk7GOI32FQe5Vr",
-      "isOffShelf": false,
-      "name": "新組合",
-      "items": [
-        {
-          "productName": "鳳梨寡糖消化酵素飲",
-          "productSpec": "7包/盒",
-          "qty": 1
-        },
-        {
-          "productName": "鳳梨寡糖消化酵素飲",
-          "productSpec": "7包/盒",
-          "qty": 1
-        }
-      ],
-      "price": 1399
     }
   ],
   "frozen": [
@@ -1573,7 +1527,7 @@
           "黑糖烤茶"
         ],
         "type": "fixed",
-        "desc": "單口味3包也可以：此方案不可以有開心果",
+        "desc": "",
         "name": "3包組",
         "price": 499
       },
@@ -1611,6 +1565,14 @@
         "desc": "",
         "name": "5包同口味｜外部團購",
         "price": 833
+      },
+      {
+        "qty": 10,
+        "fixedFlavors": [],
+        "type": "single",
+        "desc": "",
+        "name": "10包同口味",
+        "price": 1388
       },
       {
         "qty": 12,

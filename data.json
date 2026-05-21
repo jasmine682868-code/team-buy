@@ -1,7 +1,7 @@
 {
   "cfg": {
     "title": "2026團購價目表",
-    "updated": "2026/05/21 15:52 更新",
+    "updated": "2026/05/21 15:58 更新",
     "banner": "https://lh3.googleusercontent.com/d/1uRVzESrmK_zFo5Y7QRYGCmn3oYIQiB5b",
     "styles": {
       "--fs-pname": "36px",
@@ -817,6 +817,27 @@
         }
       ],
       "price": 1299
+    },
+    {
+      "name": "新組合",
+      "remark": "極光74%、養泌法85%",
+      "comboGift": "",
+      "comboGiftValue": 0,
+      "img": "",
+      "isOffShelf": false,
+      "items": [
+        {
+          "productName": "極光煥白膠原飲",
+          "productSpec": "30包/盒",
+          "qty": 1
+        },
+        {
+          "productName": "養泌法豐盈膠囊",
+          "productSpec": "60顆/盒",
+          "qty": 1
+        }
+      ],
+      "price": 4090
     }
   ],
   "frozen": [

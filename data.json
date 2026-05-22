@@ -1,7 +1,7 @@
 {
   "cfg": {
     "title": "2026團購價目表",
-    "updated": "2026/05/21 15:58 更新",
+    "updated": "2026/05/22 11:45 更新",
     "banner": "https://lh3.googleusercontent.com/d/1uRVzESrmK_zFo5Y7QRYGCmn3oYIQiB5b",
     "styles": {
       "--fs-pname": "36px",
@@ -71,7 +71,7 @@
       "spec": "30包/盒",
       "unit": 30,
       "official": 3880,
-      "tag": "2026.04.26新上市",
+      "tag": "2026/04/26上市",
       "tiers": [
         {
           "qty": 1,
@@ -563,6 +563,106 @@
           "giftCount": 0
         }
       ]
+    },
+    {
+      "unitLabel": "包",
+      "bgColor": "",
+      "img": "https://lh3.googleusercontent.com/d/1Vew5TwSeN5-aUBQwIvp9SZ03CWGE4Lzd",
+      "remark": "",
+      "isOffShelf": false,
+      "name": "X糖益生菌3.0",
+      "spec": "7包/盒",
+      "unit": 7,
+      "official": 620,
+      "tag": "官網新客第二件5折",
+      "tiers": [
+        {
+          "qty": 1,
+          "price": 0,
+          "note": "",
+          "giftCount": 0
+        }
+      ]
+    },
+    {
+      "unitLabel": "包",
+      "bgColor": "",
+      "img": "https://lh3.googleusercontent.com/d/1AlD5ZjYyN9V0Rq-e41EZWlFamUQvBVcu",
+      "remark": "",
+      "isOffShelf": false,
+      "name": "輕朔益生菌",
+      "spec": "7包/盒",
+      "unit": 7,
+      "official": 680,
+      "tag": "官網新客第二件5折",
+      "tiers": [
+        {
+          "qty": 1,
+          "price": 0,
+          "note": "",
+          "giftCount": 0
+        }
+      ]
+    },
+    {
+      "unitLabel": "顆",
+      "bgColor": "",
+      "img": "https://lh3.googleusercontent.com/d/1MwPVSyBvNLl3zt1r-smjAhRXthb1n4u3",
+      "remark": "",
+      "isOffShelf": false,
+      "name": "緩醣盾褐藻膠囊",
+      "spec": "14顆/袋",
+      "unit": 14,
+      "official": 599,
+      "tag": "官網新客第二件5折",
+      "tiers": [
+        {
+          "qty": 1,
+          "price": 0,
+          "note": "",
+          "giftCount": 0
+        }
+      ]
+    },
+    {
+      "unitLabel": "顆",
+      "bgColor": "",
+      "img": "https://lh3.googleusercontent.com/d/1EvoIq52mqFEkSqzlh3qZ7Ex7KpDFi-FM",
+      "remark": "",
+      "isOffShelf": false,
+      "name": "躺好眠數羊膠囊",
+      "spec": "14顆/袋",
+      "unit": 30,
+      "official": 599,
+      "tag": "",
+      "tiers": [
+        {
+          "qty": 1,
+          "price": 0,
+          "note": "",
+          "giftCount": 0
+        }
+      ]
+    },
+    {
+      "unitLabel": "顆",
+      "bgColor": "",
+      "img": "",
+      "remark": "",
+      "isOffShelf": false,
+      "name": "好硒利X代謝膠囊",
+      "spec": "14顆/袋",
+      "unit": 14,
+      "official": 888,
+      "tag": "官網新客第二件5折",
+      "tiers": [
+        {
+          "qty": 1,
+          "price": 0,
+          "note": "",
+          "giftCount": 0
+        }
+      ]
     }
   ],
   "combos": [
@@ -803,7 +903,7 @@
       "price": 5399
     },
     {
-      "remark": "",
+      "remark": "新客體驗：限購一組",
       "comboGift": "",
       "comboGiftValue": 0,
       "img": "https://lh3.googleusercontent.com/d/1Psjx6lNbNJdscLVUcOW4-Et3s9F6l1hT",
@@ -819,12 +919,12 @@
       "price": 1299
     },
     {
-      "name": "新組合",
       "remark": "極光74%、養泌法85%",
       "comboGift": "",
       "comboGiftValue": 0,
       "img": "",
       "isOffShelf": false,
+      "name": "新組合",
       "items": [
         {
           "productName": "極光煥白膠原飲",

@@ -1,8 +1,26 @@
 {
   "cfg": {
     "title": "2026團購價目表",
-    "updated": "2026/05/25 17:14 更新",
+    "updated": "2026/05/25 22:10 更新",
     "banner": "https://lh3.googleusercontent.com/d/1uRVzESrmK_zFo5Y7QRYGCmn3oYIQiB5b",
+    "frozenTagOrder": [
+      "料多多！米飯系列",
+      "小纖女！花椰菜米系列",
+      "團購獨家！手工麵捲系列",
+      "新品上市",
+      "Annie",
+      "Leed",
+      "歐娜聯名",
+      "蔬食系列",
+      "酒",
+      "海鮮",
+      "牛",
+      "豬",
+      "辣",
+      "雞",
+      "魚",
+      "限定回歸"
+    ],
     "styles": {
       "--fs-pname": "36px",
       "--fs-spec": "16px",
@@ -1891,14 +1909,6 @@
         "desc": "",
         "name": "5包同口味｜外部團購",
         "price": 833
-      },
-      {
-        "qty": 10,
-        "fixedFlavors": [],
-        "type": "single",
-        "desc": "",
-        "name": "10包同口味",
-        "price": 1388
       },
       {
         "qty": 12,

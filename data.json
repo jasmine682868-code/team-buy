@@ -1,7 +1,7 @@
 {
   "cfg": {
     "title": "2026團購價目表",
-    "updated": "2026/05/25 22:12 更新",
+    "updated": "2026/05/25 22:22 更新",
     "banner": "https://lh3.googleusercontent.com/d/1uRVzESrmK_zFo5Y7QRYGCmn3oYIQiB5b",
     "frozenTagOrder": [
       "料多多！米飯系列",
@@ -1350,7 +1350,7 @@
       "basePrice": 180,
       "spicy": 0,
       "alcohol": false,
-      "discount": 0.9537,
+      "discount": 0.88,
       "img": "https://lh3.googleusercontent.com/d/1eYh9mu40XUNGuUG1TfSjeO-swGpRSd_u"
     },
     {
@@ -1402,7 +1402,7 @@
       "basePrice": 180,
       "spicy": 0,
       "alcohol": true,
-      "discount": 0.9037,
+      "discount": 0.88,
       "img": "https://lh3.googleusercontent.com/d/1QUBmzy-Th3THwpFfZNeQbXVqFt8o11Ry"
     },
     {

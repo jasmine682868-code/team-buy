@@ -1,7 +1,7 @@
 {
   "cfg": {
     "title": "2026團購價目表",
-    "updated": "2026/06/08 00:59 更新",
+    "updated": "2026/06/09 12:16 更新",
     "banner": "https://lh3.googleusercontent.com/d/1uRVzESrmK_zFo5Y7QRYGCmn3oYIQiB5b",
     "frozenTagOrder": [
       "料多多！米飯系列",
@@ -1961,6 +1961,97 @@
       "alcohol": false,
       "discount": 0.88,
       "img": "https://lh3.googleusercontent.com/d/1FgfuKgsOjzdrYo88bwGdclTMob_i63EV"
+    },
+    {
+      "name": "韓式人蔘雞湯(298大卡)",
+      "basePrice": 195,
+      "oldBasePrice": 195,
+      "spicy": 0,
+      "alcohol": false,
+      "discount": 0.88,
+      "qty": 3,
+      "img": "",
+      "tag": "限定回歸,雞",
+      "isOffShelf": false,
+      "onOfficial": false
+    },
+    {
+      "name": "日式叉燒雞湯麵(597大卡)",
+      "basePrice": 300,
+      "oldBasePrice": 300,
+      "spicy": 1,
+      "alcohol": true,
+      "discount": 0.88,
+      "qty": 3,
+      "img": "",
+      "tag": "限定回歸,雞,豬",
+      "isOffShelf": false,
+      "onOfficial": false
+    },
+    {
+      "name": "椒麻口水雞鬱金香飯(520大卡)",
+      "basePrice": 175,
+      "oldBasePrice": 175,
+      "spicy": 1,
+      "alcohol": true,
+      "discount": 0.88,
+      "qty": 3,
+      "img": "",
+      "tag": "限定回歸,雞",
+      "isOffShelf": false,
+      "onOfficial": false
+    },
+    {
+      "name": "芋香鮮肉粥(372大卡)",
+      "basePrice": 120,
+      "oldBasePrice": 120,
+      "spicy": 0,
+      "alcohol": false,
+      "discount": 0.88,
+      "qty": 3,
+      "img": "",
+      "tag": "限定回歸,豬",
+      "isOffShelf": false,
+      "onOfficial": false
+    },
+    {
+      "name": "藥膳雞茸粥(269大卡)",
+      "basePrice": 190,
+      "oldBasePrice": 190,
+      "spicy": 0,
+      "alcohol": false,
+      "discount": 0.6947,
+      "qty": 3,
+      "img": "",
+      "tag": "限定回歸,雞",
+      "isOffShelf": false,
+      "onOfficial": false
+    },
+    {
+      "name": "藥膳花生豆干",
+      "basePrice": 145,
+      "oldBasePrice": 145,
+      "spicy": 2,
+      "alcohol": true,
+      "discount": 0.88,
+      "qty": 3,
+      "img": "",
+      "tag": "限定回歸",
+      "isOffShelf": false,
+      "onOfficial": false
+    },
+    {
+      "name": "肉燥桂竹筍",
+      "basePrice": 85,
+      "oldBasePrice": 85,
+      "spicy": 0,
+      "alcohol": false,
+      "discount": 0.88,
+      "qty": 5,
+      "img": "",
+      "tag": "限定回歸,豬",
+      "isOffShelf": false,
+      "onOfficial": false
     }
   ],
   "oats": {

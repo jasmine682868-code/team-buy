@@ -1,7 +1,7 @@
 {
   "cfg": {
     "title": "2026團購價目表",
-    "updated": "2026/06/09 17:22 更新",
+    "updated": "2026/06/10 15:21 更新",
     "banner": "https://lh3.googleusercontent.com/d/1uRVzESrmK_zFo5Y7QRYGCmn3oYIQiB5b",
     "frozenTagOrder": [
       "料多多！米飯系列",
@@ -1150,8 +1150,13 @@
       "name": "新組合",
       "items": [
         {
-          "productName": "鳳梨寡糖消化酵素飲",
+          "productName": "極光煥白膠原飲",
           "productSpec": "30包/盒",
+          "qty": 1
+        },
+        {
+          "productName": "躺好眠數羊膠囊",
+          "productSpec": "60顆/瓶",
           "qty": 1
         }
       ],
@@ -1986,7 +1991,7 @@
       "spicy": 1,
       "alcohol": true,
       "discount": 0.88,
-      "img": ""
+      "img": "https://lh3.googleusercontent.com/d/1E2sKI2DmdMU5zs2tei8PcA87sjLIFrXO"
     },
     {
       "isOffShelf": false,
@@ -1999,7 +2004,7 @@
       "spicy": 1,
       "alcohol": true,
       "discount": 0.88,
-      "img": ""
+      "img": "https://lh3.googleusercontent.com/d/1-yA-BkgoXwZ43LQPcbR3lmfF7--EIuMZ"
     },
     {
       "isOffShelf": false,
@@ -2012,7 +2017,7 @@
       "spicy": 0,
       "alcohol": false,
       "discount": 0.88,
-      "img": ""
+      "img": "https://lh3.googleusercontent.com/d/1E6oW0XvrfKMqala8-EAdhhJerOmAnCP5"
     },
     {
       "isOffShelf": false,
@@ -2025,7 +2030,7 @@
       "spicy": 0,
       "alcohol": false,
       "discount": 0.6947,
-      "img": ""
+      "img": "https://lh3.googleusercontent.com/d/1_DjAAJTrWNDyQ4mGCdt9HXi3Y-LpY6kU"
     },
     {
       "isOffShelf": false,

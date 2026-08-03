@@ -1,7 +1,7 @@
 {
   "cfg": {
     "title": "2026團購價目表",
-    "updated": "2026/08/03 13:52 更新",
+    "updated": "2026/08/03 15:35 更新",
     "banner": "https://lh3.googleusercontent.com/d/1uRVzESrmK_zFo5Y7QRYGCmn3oYIQiB5b",
     "frozenTagOrder": [
       "料多多！米飯系列",
@@ -1241,13 +1241,13 @@
       "price": 3830
     },
     {
+      "name": "新組合",
       "remark": "",
       "comboGift": "",
       "comboGiftValue": 0,
       "img": "https://lh3.googleusercontent.com/d/1SOr4e45az_en-TX5T5zJ5vm6qHwhfmKI",
       "isOffShelf": false,
       "onOfficial": false,
-      "name": "新組合",
       "items": [
         {
           "productName": "鳳梨寡糖消化酵素飲",
@@ -1263,13 +1263,13 @@
       "price": 3988
     },
     {
+      "name": "新組合",
       "remark": "",
       "comboGift": "X糖益生菌3.0(7入/盒裝)",
       "comboGiftValue": 899,
       "img": "https://lh3.googleusercontent.com/d/1vGLeHFECTYPOBG1UqTjJDhj7r1C8duiN",
       "isOffShelf": false,
       "onOfficial": false,
-      "name": "新組合",
       "items": [
         {
           "productName": "X糖益生菌",

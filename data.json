@@ -1,7 +1,7 @@
 {
   "cfg": {
     "title": "2026團購價目表",
-    "updated": "2026/07/02 17:47 更新",
+    "updated": "2026/08/03 13:48 更新",
     "banner": "https://lh3.googleusercontent.com/d/1uRVzESrmK_zFo5Y7QRYGCmn3oYIQiB5b",
     "frozenTagOrder": [
       "料多多！米飯系列",
@@ -487,11 +487,11 @@
       "remark": "",
       "isOffShelf": false,
       "onOfficial": false,
-      "name": "花青素透明質酸鈉果凍",
+      "name": "花青素透明質酸鈉果凍+",
       "spec": "20包/盒",
       "unit": 20,
       "official": 1760,
-      "tag": "效期：2026/12/10",
+      "tag": "2026/7/27上市",
       "tiers": [
         {
           "qty": 1,
@@ -1151,7 +1151,7 @@
       "remark": "童騙(Nana組合)",
       "comboGift": "",
       "comboGiftValue": 0,
-      "img": "",
+      "img": "https://lh3.googleusercontent.com/d/1jyMUBuS7hXa4swzLxdbdbd3QqlSxAFrV",
       "isOffShelf": false,
       "onOfficial": false,
       "name": "新組合",
@@ -1173,7 +1173,7 @@
       "remark": "",
       "comboGift": "",
       "comboGiftValue": 0,
-      "img": "",
+      "img": "https://lh3.googleusercontent.com/d/1wquPM6iggscH-lz4HsG2BFWDik5NhKPC",
       "isOffShelf": false,
       "onOfficial": false,
       "name": "新組合",
@@ -1195,7 +1195,7 @@
       "remark": "",
       "comboGift": "",
       "comboGiftValue": 0,
-      "img": "",
+      "img": "https://lh3.googleusercontent.com/d/1fyFsSsafw7ylbq5tHjLshdgsFDmoTv00",
       "isOffShelf": false,
       "onOfficial": false,
       "name": "新組合",
@@ -1239,6 +1239,50 @@
         }
       ],
       "price": 3830
+    },
+    {
+      "name": "新組合",
+      "remark": "",
+      "comboGift": "",
+      "comboGiftValue": 0,
+      "img": "https://lh3.googleusercontent.com/d/1SOr4e45az_en-TX5T5zJ5vm6qHwhfmKI",
+      "isOffShelf": false,
+      "onOfficial": false,
+      "items": [
+        {
+          "productName": "鳳梨寡糖消化酵素飲",
+          "productSpec": "30包/盒",
+          "qty": 1
+        },
+        {
+          "productName": "1000+ EPA超臨界魚油",
+          "productSpec": "60顆/盒",
+          "qty": 1
+        }
+      ],
+      "price": 3988
+    },
+    {
+      "name": "新組合",
+      "remark": "",
+      "comboGift": "X糖益生菌3.0(7入/盒裝)",
+      "comboGiftValue": 899,
+      "img": "https://lh3.googleusercontent.com/d/1vGLeHFECTYPOBG1UqTjJDhj7r1C8duiN",
+      "isOffShelf": false,
+      "onOfficial": false,
+      "items": [
+        {
+          "productName": "X糖益生菌",
+          "productSpec": "30包/盒",
+          "qty": 1
+        },
+        {
+          "productName": "極光煥白膠原飲",
+          "productSpec": "30包/盒",
+          "qty": 1
+        }
+      ],
+      "price": 4399
     }
   ],
   "frozen": [
@@ -2007,7 +2051,7 @@
       "spicy": 0,
       "alcohol": false,
       "discount": 0.88,
-      "img": ""
+      "img": "https://lh3.googleusercontent.com/d/17abR54hpQ7JVYBki_oEFgIV2V4UaHF8U"
     },
     {
       "isOffShelf": false,

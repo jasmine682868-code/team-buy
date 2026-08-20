@@ -1,7 +1,7 @@
 {
   "cfg": {
     "title": "2026團購價目表",
-    "updated": "2026/08/03 15:44 更新",
+    "updated": "2026/08/20 12:20 更新",
     "banner": "https://lh3.googleusercontent.com/d/1uRVzESrmK_zFo5Y7QRYGCmn3oYIQiB5b",
     "frozenTagOrder": [
       "料多多！米飯系列",
@@ -416,6 +416,41 @@
       ]
     },
     {
+      "name": "好舒芯醉茄膠囊",
+      "spec": "60顆/盒",
+      "unit": 60,
+      "unitLabel": "顆",
+      "official": 1690,
+      "tag": "2026/08/07上市",
+      "img": "https://lh3.googleusercontent.com/d/1swrv8IlEcdhGQilLQQu6_mQwqIGtwQVG",
+      "bgColor": "",
+      "remark": "首賣活動\n💜好舒芯 (60顆/瓶) \n【一入】➠ 原價 $1,690\n首賣價 $1,499 (89 折，省 $191）\n\n【兩入】➠ 原價 $3,380\n首賣價 $2,699 (8 折，省 $681)\n\n【三入】➠ 原價 $5,070\n首賣價 $3,699 (73 折，省 $1,371)\n\n【1+1 日夜放鬆組合】\n好舒芯x1 + 躺好眠x1 \n➠ $3,299 (85折，現省 $571)\n\n◉ 買2 盒以上送安心守護噴霧*1瓶 (不累贈)❤️‍🔥",
+      "isOffShelf": false,
+      "onOfficial": false,
+      "tiers": [
+        {
+          "qty": 1,
+          "price": 1450,
+          "note": "",
+          "giftCount": 0
+        },
+        {
+          "qty": 3,
+          "price": 4060,
+          "note": "",
+          "giftCount": 0,
+          "giftValue": 0
+        },
+        {
+          "qty": 5,
+          "price": 6300,
+          "note": "",
+          "giftCount": 0,
+          "giftValue": 0
+        }
+      ]
+    },
+    {
       "unitLabel": "顆",
       "bgColor": "",
       "img": "https://lh3.googleusercontent.com/d/1KR4pD3I7zwkxfuQK2ckvuTFYSoQcPft8",
@@ -492,7 +527,7 @@
       "bgColor": "#ff4500",
       "img": "https://lh3.googleusercontent.com/d/13Di9H9BRZ_PVy7GPgym7WE3gFi0UYErj",
       "remark": "",
-      "isOffShelf": false,
+      "isOffShelf": true,
       "onOfficial": false,
       "name": "頂級亮妍B群2.0",
       "spec": "60顆/瓶",
@@ -528,7 +563,7 @@
       "bgColor": "#ff4500",
       "img": "https://lh3.googleusercontent.com/d/1wtKmj-7NPmVsl3yX4B2z_ruAuhQYgjBk",
       "remark": "",
-      "isOffShelf": false,
+      "isOffShelf": true,
       "onOfficial": false,
       "name": "黃金舒復膠囊",
       "spec": "60顆/瓶",
@@ -564,7 +599,7 @@
       "bgColor": "",
       "img": "https://lh3.googleusercontent.com/d/1W4GxMNxLdzspDfcTlSyqgK4EGecov2Fm",
       "remark": "",
-      "isOffShelf": false,
+      "isOffShelf": true,
       "onOfficial": false,
       "name": "SPIRIT'S SECRET 泌妍煥髮精華",
       "spec": "5瓶/盒",
@@ -589,6 +624,27 @@
       ]
     },
     {
+      "name": "鳳梨寡糖消化酵素飲",
+      "spec": "2包/盒",
+      "unit": 2,
+      "unitLabel": "包",
+      "official": 299,
+      "tag": "",
+      "img": "https://lh3.googleusercontent.com/d/1Cu44K1i0MV9eChuW-jatmkgn9sqJhxNh",
+      "bgColor": "",
+      "remark": "",
+      "isOffShelf": false,
+      "onOfficial": false,
+      "tiers": [
+        {
+          "qty": 1,
+          "price": 0,
+          "note": "",
+          "giftCount": 0
+        }
+      ]
+    },
+    {
       "unitLabel": "包",
       "bgColor": "",
       "img": "https://lh3.googleusercontent.com/d/1DmZ4YPgg_xL5pTgHdZJKpdUIqytf91n6",
@@ -600,6 +656,27 @@
       "unit": 7,
       "official": 899,
       "tag": "官網新客第二件5折",
+      "tiers": [
+        {
+          "qty": 1,
+          "price": 0,
+          "note": "",
+          "giftCount": 0
+        }
+      ]
+    },
+    {
+      "name": "極光煥白膠原飲",
+      "spec": "2包/盒",
+      "unit": 2,
+      "unitLabel": "包",
+      "official": 399,
+      "tag": "",
+      "img": "https://lh3.googleusercontent.com/d/1rJZj7SkeRkWnLWicPbrFDReLPudjDSAS",
+      "bgColor": "",
+      "remark": "",
+      "isOffShelf": false,
+      "onOfficial": false,
       "tiers": [
         {
           "qty": 1,
@@ -694,17 +771,59 @@
       ]
     },
     {
+      "name": "緩醣盾褐藻膠囊",
+      "spec": "40顆/袋",
+      "unit": 40,
+      "unitLabel": "袋",
+      "official": 1347,
+      "tag": "",
+      "img": "https://lh3.googleusercontent.com/d/11Voeo_PXCK12XmbBSiw_sNFVXFS8LVaX",
+      "bgColor": "",
+      "remark": "",
+      "isOffShelf": false,
+      "onOfficial": false,
+      "tiers": [
+        {
+          "qty": 1,
+          "price": 0,
+          "note": "",
+          "giftCount": 0
+        }
+      ]
+    },
+    {
       "unitLabel": "顆",
       "bgColor": "",
-      "img": "https://lh3.googleusercontent.com/d/1EvoIq52mqFEkSqzlh3qZ7Ex7KpDFi-FM",
+      "img": "https://lh3.googleusercontent.com/d/1mw8TNEN_9BhQctmd5F8bnPhuNDqUNEm_",
       "remark": "",
       "isOffShelf": false,
       "onOfficial": false,
       "name": "躺好眠數羊膠囊",
       "spec": "14顆/袋",
-      "unit": 30,
+      "unit": 14,
       "official": 599,
+      "tag": "官網新客第二件5折",
+      "tiers": [
+        {
+          "qty": 1,
+          "price": 0,
+          "note": "",
+          "giftCount": 0
+        }
+      ]
+    },
+    {
+      "name": "躺好眠數羊膠囊",
+      "spec": "40顆/袋",
+      "unit": 40,
+      "unitLabel": "袋",
+      "official": 1450,
       "tag": "",
+      "img": "https://lh3.googleusercontent.com/d/1ErT5n07rOUdf3v3pYLsDg_gwNhNBak7V",
+      "bgColor": "",
+      "remark": "",
+      "isOffShelf": false,
+      "onOfficial": false,
       "tiers": [
         {
           "qty": 1,
@@ -747,6 +866,69 @@
       "unit": 14,
       "official": 499,
       "tag": "官網新客第二件5折",
+      "tiers": [
+        {
+          "qty": 1,
+          "price": 0,
+          "note": "",
+          "giftCount": 0
+        }
+      ]
+    },
+    {
+      "name": "1000+ 綜合超臨界魚油",
+      "spec": "10顆/袋",
+      "unit": 10,
+      "unitLabel": "袋",
+      "official": 299,
+      "tag": "",
+      "img": "https://lh3.googleusercontent.com/d/1TmN3m3rZQsgYp5MOVVqtVrkqJrOLbsZ6",
+      "bgColor": "",
+      "remark": "",
+      "isOffShelf": false,
+      "onOfficial": false,
+      "tiers": [
+        {
+          "qty": 1,
+          "price": 0,
+          "note": "",
+          "giftCount": 0
+        }
+      ]
+    },
+    {
+      "name": "養泌法豐盈膠囊",
+      "spec": "14顆/袋",
+      "unit": 14,
+      "unitLabel": "袋",
+      "official": 499,
+      "tag": "官網新客第二件5折",
+      "img": "https://lh3.googleusercontent.com/d/1E_y4KWCGl9d7R3zwubm-c-fQrRWNHyRV",
+      "bgColor": "",
+      "remark": "",
+      "isOffShelf": false,
+      "onOfficial": false,
+      "tiers": [
+        {
+          "qty": 1,
+          "price": 0,
+          "note": "",
+          "giftCount": 0
+        }
+      ]
+    },
+    {
+      "name": "養泌法豐盈膠囊",
+      "spec": "40顆/袋",
+      "unit": 40,
+      "unitLabel": "袋",
+      "official": 1180,
+      "tag": "",
+      "img": "https://lh3.googleusercontent.com/d/16y_yihzRJ6iZ9iuFkphxZsVsxngsICXr",
+      "bgColor": "",
+      "remark": "",
+      "isOffShelf": false,
+      "onOfficial": false,
       "tiers": [
         {
           "qty": 1,
@@ -1241,13 +1423,13 @@
       "price": 3830
     },
     {
-      "name": "新組合",
       "remark": "",
       "comboGift": "",
       "comboGiftValue": 0,
       "img": "https://lh3.googleusercontent.com/d/1SOr4e45az_en-TX5T5zJ5vm6qHwhfmKI",
       "isOffShelf": false,
       "onOfficial": false,
+      "name": "新組合",
       "items": [
         {
           "productName": "鳳梨寡糖消化酵素飲",
@@ -1263,13 +1445,13 @@
       "price": 3988
     },
     {
-      "name": "新組合",
       "remark": "",
       "comboGift": "X糖益生菌3.0(7入/盒裝)",
       "comboGiftValue": 899,
       "img": "https://lh3.googleusercontent.com/d/1vGLeHFECTYPOBG1UqTjJDhj7r1C8duiN",
       "isOffShelf": false,
       "onOfficial": false,
+      "name": "新組合",
       "items": [
         {
           "productName": "X糖益生菌",

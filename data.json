@@ -1,7 +1,7 @@
 {
   "cfg": {
     "title": "2026團購價目表",
-    "updated": "2026/08/20 12:20 更新",
+    "updated": "2026/08/20 12:37 更新",
     "banner": "https://lh3.googleusercontent.com/d/1uRVzESrmK_zFo5Y7QRYGCmn3oYIQiB5b",
     "frozenTagOrder": [
       "料多多！米飯系列",
@@ -1306,7 +1306,7 @@
       "remark": "童騙(Eddie組合)",
       "comboGift": "",
       "comboGiftValue": 0,
-      "img": "",
+      "img": "https://lh3.googleusercontent.com/d/1uWNMJ0bqEs2Zcnmtn5bMaoLFRq90wBUv",
       "isOffShelf": false,
       "onOfficial": false,
       "name": "新組合",
@@ -1465,6 +1465,50 @@
         }
       ],
       "price": 4399
+    },
+    {
+      "name": "新組合",
+      "remark": "",
+      "comboGift": "",
+      "comboGiftValue": 0,
+      "img": "https://lh3.googleusercontent.com/d/1XrojWxS2Xw2pjgO-TCtD2isi5Edxu59J",
+      "isOffShelf": false,
+      "onOfficial": false,
+      "items": [
+        {
+          "productName": "鳳梨寡糖消化酵素飲",
+          "productSpec": "7包/盒",
+          "qty": 1
+        },
+        {
+          "productName": "極光煥白膠原飲",
+          "productSpec": "7包/盒",
+          "qty": 1
+        }
+      ],
+      "price": 1580
+    },
+    {
+      "name": "新組合",
+      "remark": "",
+      "comboGift": "",
+      "comboGiftValue": 0,
+      "img": "",
+      "isOffShelf": false,
+      "onOfficial": false,
+      "items": [
+        {
+          "productName": "躺好眠數羊膠囊",
+          "productSpec": "60顆/瓶",
+          "qty": 1
+        },
+        {
+          "productName": "好舒芯醉茄膠囊",
+          "productSpec": "60顆/盒",
+          "qty": 1
+        }
+      ],
+      "price": 3088
     }
   ],
   "frozen": [
